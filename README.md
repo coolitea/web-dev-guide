@@ -25,8 +25,8 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 
 ## 사용 라이브러리
 
-[Bootstrap ver.4.1.3](https://getbootstrap.com/) - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
-[Font Awesome ver.5](http://fontawesome.io) - 가장 인기있는 아이콘과 도구 모음
+- [Bootstrap ver.4.1.3](https://getbootstrap.com/) - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
+- [Font Awesome ver.5](http://fontawesome.io) - 가장 인기있는 아이콘과 도구 모음
 
 ## 버전 관리
 
