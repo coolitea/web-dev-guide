@@ -43,25 +43,23 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 - [Git](https://git-scm.com/)
 - [Git hub (private repository)](https://github.com)
 
-### 개발 도구
+## 개발 도구
 
 [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) 등 본인에게 편리한 개발 도구를 사용합니다.
 
-참고로 제가 사용한 개발 도구인 Atom 의 플로그인을 공유합니다.
+- Atom 플러그인
 
-- [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
-- [Emmet](https://docs.emmet.io/) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
-- [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
-- [pigments](https://atom.io/packages/pigments) - A package to display colors in project and files.
-- [gitplus](https://atom.io/packages/git-plus) - Do git things without the terminal.
-- [color-picker](https://atom.io/packages/color-picker)- Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it.
+  - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
+  - [Emmet](https://docs.emmet.io/) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
+  - [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
+  - [pigments](https://atom.io/packages/pigments) - A package to display colors in project and files.
+  - [gitplus](https://atom.io/packages/git-plus) - Do git things without the terminal.
+  - [color-picker](https://atom.io/packages/color-picker)- Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it.
 
-웹사이트 디버깅 및 성능 개선을 위한 도구들도 있습니다.
+## 디버깅 및 성능 개선
 
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/) - 크롬 개발자 도구. 디버깅에 사용
-
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
-
 - [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) -
   웹 사이트 속도 측정 및 개선 방법 추천
 
@@ -74,13 +72,27 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 
 - **박현정** - 최초 작성
 
+## 관련 법규
+
+### [전자정부법](http://www.law.go.kr/법령/전자정부법)
+
+- [모바일 전자정부 서비스 관리 지침](http://www.law.go.kr/행정규칙/모바일전자정부서비스관리지침)
+- [행정기관 및 공공기관 정보시스템 구축·운영 지침](http://www.law.go.kr/행정규칙/행정기관및공공기관정보시스템구축·운영지침)
+- [전자정부서비스 호환성 준수지침](http://www.law.go.kr/행정규칙/전자정부서비스호환성준수지침)
+- [정보기술아키텍처 도입·운영 지침](http://www.law.go.kr/행정규칙/정보기술아키텍처도입·운영지침)
+- [클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률](http://www.law.go.kr/법령/클라우드컴퓨팅발전및이용자보호에관한법률)
+
+### 가이드라인
+
+- [공공 웹사이트 플러그인 제거 가이드라인](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000045&nttId=66932)
+- [한국인터넷진흥원기술안내서 가이드](http://www.kisa.or.kr/public/laws/laws3.jsp)
+
+- [장애인·고령자 등의 정보 접근 및 이용 편의 증진을 위한 고시](http://www.law.go.kr/행정규칙/장애인·고령자등의정보접근및이용편의증진을위한고시)
+
+- [범정부EA포털](https://www.geap.go.kr/)
+
 ## 레퍼런스 사이트
 
-- [전자정부법](http://www.law.go.kr/법령/전자정부법)
-  - [모바일 전자정부 서비스 관리 지침](http://www.law.go.kr/행정규칙/모바일전자정부서비스관리지침)
-  - [행정기관 및 공공기관 정보시스템 구축·운영 지침](http://www.law.go.kr/행정규칙/행정기관및공공기관정보시스템구축·운영지침)
-  - [정보기술아키텍처 도입·운영 지침](http://www.law.go.kr/행정규칙/정보기술아키텍처도입·운영지침)
-  - [클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률](http://www.law.go.kr/법령/클라우드컴퓨팅발전및이용자보호에관한법률)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/) - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
 - [MDN 한글](https://developer.mozilla.org/ko/) - HTML, CSS, 및 웹 사이트와 프로그레시브 웹 앱을 위한 API를 포함한 오픈 웹 기술에 대한 정보를 제공
 - [W3Scholl](https://www.w3schools.com/) - HTML, CSS, JavaScript 등 웹표준
