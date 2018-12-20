@@ -4,8 +4,7 @@
 
 ## 사전 준비
 
-HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합니다.
-권장 브라우저는 크롬 브라우저이며, 지원 대상 브라우저는 아래와 같습니다.
+웹표준을 지원하는 브라우저가 설치되어 있어야 합니다. 권장 브라우저는 [크롬](https://www.google.com/intl/ko_ALL/chrome/)이며, 지원 대상 브라우저는 아래와 같습니다.
 
 - [Chrome](https://www.google.com/chrome/)
 - [FireFox](https://www.mozilla.org/firefox/)
@@ -15,13 +14,19 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 
 ## 웹 개발의 기초
 
-- Mobile First Design
+- 모바일 우선주의 (Mobile First Design)
 
-- [웹 기초](https://developers.google.com/web/fundamentals/) - 구글 개발자 웹 기초 가이드
-- [BEM](http://getbem.com/) - 프론트엔드 컴포넌트 명명 규칙
-- [반응형 웹 디자인 (Responsive Web Design)](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) : fluid grids, flexible images, and media queries
-  - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
-  - [WebP](https://developers.google.com/web/tools/lighthouse/audits/webp)와 같은 이미지 형식을 사용
+  - [반응형 웹 디자인 (Responsive Web Design)](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) : fluid grids, flexible images, and media queries
+
+    - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
+    - [WebP](https://developers.google.com/web/tools/lighthouse/audits/webp)와 같은 이미지 형식을 사용
+
+  - [Progressive Advancement](https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive) & [Graceful Degradation](https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation)
+
+    - [프로그레시브 웹 앱스 (Progressive Web App, PWA)](https://developers.google.com/web/fundamentals/architecture/app-shell) : [애플리케이션 셸(또는 앱 셸)](https://developers.google.com/web/fundamentals/architecture/app-shell) 아키텍처. [Service Worker](https://developer.mozilla.org/ko/docs/Web/API/Service_Worker_API/Using_Service_Workers) 등 사용.
+
+* [웹 기초](https://developers.google.com/web/fundamentals/) - 구글 개발자 웹 기초 가이드
+* [BEM](http://getbem.com/) - 프론트엔드 컴포넌트 명명 규칙
 
 ## 데모 사이트
 
@@ -35,13 +40,13 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 
 ## 사용 라이브러리
 
-- [Bootstrap ver.4.1.3](https://getbootstrap.com/) - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
-- [Font Awesome ver.5](http://fontawesome.io) - 가장 인기있는 아이콘과 도구 모음
+- [Bootstrap](https://getbootstrap.com/) ver.4.1.3 - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
+- [Font Awesome](http://fontawesome.io) ver.5 - 가장 인기있는 아이콘과 도구 모음
 
 ## 버전 관리
 
-- [Git](https://git-scm.com/)
-- [Git hub (private repository)](https://github.com)
+- [Git](https://git-scm.com/) - 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. 소프트웨어 개발에서 소스 코드 관리에 주로 사용된다.
+- [Git hub (private repository)](https://github.com) - 분산 버전 관리 툴인 깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스
 
 ## 개발 도구
 
@@ -122,7 +127,3 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 
 - [React](http://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
-
-- [프로그레시브 웹 앱스 (Progressive Web App, PWA)](https://developers.google.com/web/fundamentals/architecture/app-shell) : 애플리케이션 셸(또는 앱 셸) 아키텍처. Service Worker 등 사용.
-
-  - [App Shell Model (앱 셸 모델)](https://developers.google.com/web/fundamentals/architecture/app-shell)
