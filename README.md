@@ -81,21 +81,24 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 - [전자정부서비스 호환성 준수지침](http://www.law.go.kr/행정규칙/전자정부서비스호환성준수지침)
 - [정보기술아키텍처 도입·운영 지침](http://www.law.go.kr/행정규칙/정보기술아키텍처도입·운영지침)
 - [클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률](http://www.law.go.kr/법령/클라우드컴퓨팅발전및이용자보호에관한법률)
+- [전자정부 성과관리 지침](http://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000113669)
 
-### 가이드라인
+  - [공공 웹사이트 플러그인 제거 가이드라인](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000045&nttId=66932)
+  - [한국인터넷진흥원기술안내서 가이드](http://www.kisa.or.kr/public/laws/laws3.jsp)
 
-- [공공 웹사이트 플러그인 제거 가이드라인](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000045&nttId=66932)
-- [한국인터넷진흥원기술안내서 가이드](http://www.kisa.or.kr/public/laws/laws3.jsp)
+### [국가정보화 기본법](http://www.law.go.kr/법령/국가정보화기본법)
+
+- [웹 접근성 품질인증기관 지정 및 품질인증 등에 관한 고시](http://www.law.go.kr/행정규칙/웹접근성품질인증기관지정및품질인증등에관한고시)
 
 - [장애인·고령자 등의 정보 접근 및 이용 편의 증진을 위한 고시](http://www.law.go.kr/행정규칙/장애인·고령자등의정보접근및이용편의증진을위한고시)
 
-- [범정부EA포털](https://www.geap.go.kr/)
+- [범정부EA포털](https://www.geap.go.kr/) - 우리 회사의 EA 정보가 등록되어 관리되고 있습니다. (회원 가입 필요)
 
 ## 레퍼런스 사이트
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/) - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
 - [MDN 한글](https://developer.mozilla.org/ko/) - HTML, CSS, 및 웹 사이트와 프로그레시브 웹 앱을 위한 API를 포함한 오픈 웹 기술에 대한 정보를 제공
-- [W3Scholl](https://www.w3schools.com/) - HTML, CSS, JavaScript 등 웹표준
+- [w3schools](https://www.w3schools.com/) - HTML, CSS, JavaScript 등 웹표준
 - [Bootstrap (한글번역)](http://bootstrapk.com/) - 반응형이며 모바일 우선인 웹프로젝트 개발을 위한 가장 인기있는 HTML, CSS, JS 프레임워크
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 - [Git Hub](https://github.com/) - The world's leading software development platform · GitHub
@@ -104,6 +107,9 @@ HTML5 등 웹표준을 지원하는 브라우저가 설치되어 있어야 합�
 - [Git 한글 가이드북](https://git-scm.com/book/ko/v2)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [씨앗](https://www.ceart.kr/) - 클라우드 스토어. 클라우드 관련 정보
+- [World Wide Web Consortium (W3C)](https://www.w3.org/)
+- [Browser Market Share](http://gs.statcounter.com/browser-market-share/)
+- [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/)
 
 ## 온라인 강의 사이트
 
