@@ -79,6 +79,13 @@
 
 ## 관련 법규
 
+### [개인정보 보호법](http://www.law.go.kr/법령/개인정보보호법)
+
+- 개인정보 영향평가에 관한 고시
+- 개인정보의 안전성 확보조치 기준
+- 개인정보 영향평가에 관한 고시
+- 표준 개인정보 보호지침
+
 ### [전자정부법](http://www.law.go.kr/법령/전자정부법)
 
 - [모바일 전자정부 서비스 관리 지침](http://www.law.go.kr/행정규칙/모바일전자정부서비스관리지침)
@@ -88,13 +95,17 @@
 - [클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률](http://www.law.go.kr/법령/클라우드컴퓨팅발전및이용자보호에관한법률)
 
   - [씨앗](https://www.ceart.kr/) - 클라우드 스토어. 클라우드 관련 정보
-  - 행안부의 ‘공공기관 민간 클라우드 이용가이드’가 아래 기사와 같이 전면 폐지됨
+  - 행안부 '공공기관 민간 클라우드 이용가이드' 폐지
 
 - [전자정부 성과관리 지침](http://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000113669)
 
 ### [국가정보화 기본법](http://www.law.go.kr/법령/국가정보화기본법)
 
 - [웹 접근성 품질인증기관 지정 및 품질인증 등에 관한 고시](http://www.law.go.kr/행정규칙/웹접근성품질인증기관지정및품질인증등에관한고시)
+
+### [전자서명법](http://www.law.go.kr/법령/전자서명법)
+
+### [정보통신망 이용촉진 및 정보보호 등에 관한 법률](http://www.law.go.kr/법령/정보통신망이용촉진및정보보호등에관한법률)
 
 ### [장애인차별금지 및 권리구제 등에 관한 법률](http://www.law.go.kr/법령/장애인차별금지및권리구제등에관한법률)
 
@@ -105,33 +116,28 @@
 - [공공기관의 데이터베이스 표준화 지침](http://www.law.go.kr/행정규칙/공공기관의데이터베이스표준화지침)
 - [공공데이터 품질관리 매뉴얼](https://www.data.go.kr/information/PDS_0000000000000516/recsroom.do) v2.0
 
-### [정보통신망 이용촉진 및 정보보호 등에 관한 법률](http://www.law.go.kr/법령/정보통신망이용촉진및정보보호등에관한법률)
-
 ### 행정안정부
 
 - [행정안정부 정보화 표준·지침 자료실](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000045)
-  - [공공 웹사이트 플러그인 제거 가이드라인](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000045&nttId=66932)
+  - [공공 웹사이트 플러그인 제거 가이드라인](https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000045&nttId=66932) - 2020년까지 완료 목표
+
+### 금융위원회
+
+- [금융위 법령정보](http://www.fsc.go.kr/know/indexS.jsp?menu=7400000)
 
 ### 한국인터넷진흥원
 
 - [한국인터넷진흥원 기술안내서 가이드](http://www.kisa.or.kr/public/laws/laws3.jsp)
 
+### [금융보안원](http://www.fsec.or.kr/)
+
 ### 국립전파연구원
 
 - [한국형 웹 콘텐츠 접근성 지침 2.1](https://www.wah.or.kr:444/Participation/guide.asp)
 
-### [개인정보 보호법](http://www.law.go.kr/법령/개인정보보호법)
+### [한국정보화진흥원](https://www.nia.or.kr/)
 
-- 개인정보 영향평가에 관한 고시
-- 개인정보의 안전성 확보조치 기준
-- 개인정보 영향평가에 관한 고시
-- 표준 개인정보 보호지침
-
-### [전자서명법](http://www.law.go.kr/법령/전자서명법)
-
-### 범정부EA포털
-
-[범정부EA포털](https://www.geap.go.kr/) (https://www.geap.go.kr/) 사이트에 우리 회사의 EA 정보가 등록되어 관리되고 있습니다. (회원 가입 필요)
+- [범정부EA포털](https://www.geap.go.kr/) (https://www.geap.go.kr/) 사이트에 우리 회사의 EA 정보가 등록되어 관리되고 있습니다. (회원 가입 필요)
 
 ## 레퍼런스 사이트
 
