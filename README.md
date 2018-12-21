@@ -6,49 +6,42 @@
 
 웹표준을 지원하는 브라우저가 설치되어 있어야 합니다. 권장 브라우저는 [크롬](https://www.google.com/intl/ko_ALL/chrome/)이며, 지원 대상 브라우저는 아래와 같습니다.
 
-- [Chrome](https://www.google.com/intl/ko_ALL/chrome/)
-- [FireFox](https://www.mozilla.org/ko/firefox/new/)
-- [Opera](https://www.opera.com/ko)
+- [크롬](https://www.google.com/intl/ko_ALL/chrome/) (Chrome)
+- [파이어폭스](https://www.mozilla.org/ko/firefox/new/) (FireFox)
+- [오페라](https://www.opera.com/ko) (Opera)
 - [IE 11](https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads) - Windows 7 사용자용
-- [Safari](https://www.apple.com/kr/safari/)
+- [사파리](https://www.apple.com/kr/safari/) (Safari)
 
 ## 웹 개발의 기초
 
-- 모바일 우선주의 (Mobile First Design)
+- 모바일 우선 주의 (Mobile First Design)
 
-  - [반응형 웹 디자인 (Responsive Web Design)](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko) : fluid grids, flexible images, and media queries
+  - [반응형 웹 디자인 (Responsive Web Design)](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)
 
-    - Imagemin - 이미지 압축
-    - [WebP](https://ko.wikipedia.org/wiki/WebP)와 같은 이미지 형식을 사용
+    - 핵심 기술 : 가변 그리드(fluid grid), 유연한 이미지(flexible images), 미디어 쿼리(media query)
+    - Imagemin (이미지 압축 기술)
+    - [WebP](https://ko.wikipedia.org/wiki/WebP)와 같은 이미지 형식 사용
 
   - [프로그레시브 웹 앱 (Progressive Web App, PWA)](https://developer.mozilla.org/ko/docs/Apps/Progressive)
-
-  - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
-  - [BEM](http://getbem.com/introduction/) - 프론트엔드 컴포넌트 명명 규칙. Blocks, Elements and Modifiers
 
 ## 데모 사이트
 
 [전자투표 데모 사이트](https://coolitea.github.io/evote-clone-with-bootstrap/) - 부트스트랩 사용
 
-## 사용 기술
+## 개발 언어
 
 - HTML5
 - CSS
-- Java Script
+- 자바스크립트 (JavaScript)
 
-## 사용 라이브러리
+## 사용 라이브러리 (프레임워크)
 
-- [Bootstrap](http://bootstrapk.com/) ver.4.1.3 - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
-- [Font Awesome](http://fontawesome.io) ver.5 - 가장 인기있는 아이콘과 도구 모음
-
-## 버전 관리
-
-- [Git](<https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. 소프트웨어 개발에서 소스 코드 관리에 주로 사용된다.
-- [Github](https://ko.wikipedia.org/wiki/%EA%B9%83%ED%97%88%EB%B8%8C) (private repository) - 분산 버전 관리 툴인 깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스
+- [부트스트랩](http://bootstrapk.com/) (Bootstrap ver.4.1.3) - 가장 인기 있는 HTML, CSS 및 JS 프레임워크 (라이브러리)
+- [폰트어썸](http://fontawesome.io) (Font Awesome ver.5) - 가장 인기있는 아이콘과 도구 모음
 
 ## 개발 도구
 
-[Atom](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>), [Visual Studio Code](https://azure.microsoft.com/ko-kr/products/visual-studio-code/) 등 본인에게 편리한 개발 도구를 사용합니다.
+[비주얼 스튜디오 코드](https://azure.microsoft.com/ko-kr/products/visual-studio-code/), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등 본인에게 편리한 개발 도구를 사용합니다.
 
 - Atom 플러그인
 
@@ -61,15 +54,20 @@
 
 ## 디버깅 및 성능 개선
 
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?hl=ko) - 크롬 개발자 도구. 디버깅에 사용
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=ko) - 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
-- [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=ko) -
+- [크롬 개발자 도구](https://developers.google.com/web/tools/chrome-devtools/?hl=ko) (Chrome DevTools) - 디버깅 도구
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/v3/scoring?hl=ko) - 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
+- [구글 페이지 스피드 인사이트](https://developers.google.com/speed/pagespeed/insights/?hl=ko) (Page Speed Insights) -
   웹 사이트 속도 측정 및 개선 방법 추천
+
+## 버전 관리
+
+- [깃 (Git)](<https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. 소프트웨어 개발에서 소스 코드 관리에 주로 사용된다.
+- [깃허브 (GitHub)](https://ko.wikipedia.org/wiki/%EA%B9%83%ED%97%88%EB%B8%8C) - 분산 버전 관리 툴인 깃(Git)을 사용하는 프로젝트를 지원하는 웹호스팅 서비스. (private repository 사용)
 
 ## 유용한 크롬 확장 프로그램
 
-- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme) - 웹 페이지 사이즈 픽셀 측정
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?catego...&hl=ko) - 색상 값 추출 도구
+- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme) - 웹 페이지 컴포넌트 사이즈 측정
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?catego...&hl=ko) - 색상 값 추출
 
 ## 작성자
 
@@ -137,37 +135,39 @@
 
 - [범정부EA포털](https://www.geap.go.kr/) (https://www.geap.go.kr/) 사이트에 우리 회사의 EA 정보가 등록되어 관리되고 있습니다. (회원 가입 필요)
 
-## 레퍼런스 사이트 (한글)
+## 학습 자료
 
-- [MDN 한글](https://developer.mozilla.org/ko/) - HTML, CSS, 및 웹 사이트와 프로그레시브 웹 앱을 위한 API를 포함한 오픈 웹 기술에 대한 정보를 제공
-- [Bootstrap (한글번역)](http://bootstrapk.com/) - 반응형이며 모바일 우선인 웹프로젝트 개발을 위한 가장 인기
-- [Git 한글 가이드북](https://git-scm.com/book/ko/v2)
+### 한글 학습 자료
 
-## 레퍼런스 사이트 (영문)
+- [노마드 아카데미](https://academy.nomadcoders.co/blog/15754/order/) - 기존 서비스를 따라 만들며 배우는 컨셉의 동영상 강의 (한글 자막)
 
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/) - The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
+- [MDN - Web 개발 학습하기](https://developer.mozilla.org/ko/docs/Learn) - 좋은 학습 관련 사이트 모음 있음
+- [Bootstrap (한글 번역)](http://bootstrapk.com/) - 비공식 사이트
+- [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
+- [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
+
+### 영어 학습 자료
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/)
+- [Bootstrap](https://getbootstrap.com/) - 공식 사이트
+- [Git Book](https://git-scm.com/book/en/v2)
 - [w3schools HTML5](https://www.w3schools.com/html/)
 - [w3schools CSS](https://www.w3schools.com/css/)
 - [w3schools Java Script](https://www.w3schools.com/js/)
-- [Bootstrap](https://getbootstrap.com/) ver.4.1.3 - 가장 인기 있는 HTML, CSS 및 JS 라이브러리 (프레임워크)
-- [Font Awesome](http://fontawesome.io) ver.5 - 가장 인기있는 아이콘과 도구 모음
-- [Atom](atom.io)
-- [Git Book](https://git-scm.com/book/en/v2) - Git is a free and open source distributed version control system
-- [Git Hub](https://github.com/) - The world's leading software development platform · GitHub
-- [GitHub Desktop](https://desktop.github.com/) - Simple collaboration from your desktop
-- [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+- [Google Developers - Web](https://developers.google.com/web/)
+- [BEM](http://getbem.com/introduction/)(Blocks, Elements and Modifiers) - 프론트엔드 컴포넌트 명명 규칙
+- [World Wide Web Consortium](https://www.w3.org/)(W3C) - 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직
+
+### 웹 개발 도구 관련 참고 사이트 (영문)
+
+- [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/) - Emmet 단축키
+- [GitHub Desktop](https://desktop.github.com/)
 - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
-- [Flat UI Colors](https://flatuicolors.com/)
-- [World Wide Web Consortium (W3C)](https://www.w3.org/)
-- [Browser Market Share](http://gs.statcounter.com/browser-market-share/)
-- [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/)
+- [Flat UI Colors](https://flatuicolors.com/) - 플랫 UI 색상 팔레트
+- [Browser Market Share](http://gs.statcounter.com/browser-market-share/) - 브라우저별 시장 점유율
+- [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/) - 브라우저별 ECMAScript 호환성
 
-## 온라인 강의 사이트
+## 추후 연구 대상
 
-- [Nomad Coders](https://academy.nomadcoders.co/) - 한글 자막 있음
-- [인프런](https://www.inflearn.com/) - 다수의 무료 한글 IT 강좌
-
-## 추가적인 연구 대상
-
-- [React](http://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org/)
+- [리액트](http://reactjs.org) (React) - 자바스크립트 라이브러리
+- [타입스크립트](https://www.typescriptlang.org/) (TypeScript) - 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다.
