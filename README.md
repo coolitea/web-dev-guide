@@ -16,7 +16,7 @@
 
 - 모바일 우선 주의 (Mobile First Design)
 
-  - [반응형 웹 디자인 (Responsive Web Design)](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=ko)
+  - [반응형 웹 디자인 (Responsive Web Design)](https://ko.wikipedia.org/wiki/%EB%B0%98%EC%9D%91%ED%98%95_%EC%9B%B9_%EB%94%94%EC%9E%90%EC%9D%B8)
 
     - 핵심 기술 : 가변 그리드(fluid grid), 유연한 이미지(flexible images), 미디어 쿼리(media query)
     - Imagemin (이미지 압축 기술)
@@ -36,21 +36,21 @@
 
 ## 사용 라이브러리 (프레임워크)
 
-- [부트스트랩](http://bootstrapk.com/) (Bootstrap ver.4.1.3) - 가장 인기 있는 HTML, CSS 및 JS 프레임워크 (라이브러리)
-- [폰트어썸](http://fontawesome.io) (Font Awesome ver.5) - 가장 인기있는 아이콘과 도구 모음
+- [부트스트랩](http://bootstrapk.com/) (Bootstrap) ver.4.1.3 - 가장 인기 있는 HTML, CSS 및 JS 프레임워크 (라이브러리)
+- [폰트어썸](http://fontawesome.io) (Font Awesome) ver.5 - 가장 인기있는 아이콘과 도구 모음
 
 ## 개발 도구
 
-[비주얼 스튜디오 코드](https://azure.microsoft.com/ko-kr/products/visual-studio-code/), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등 본인에게 편리한 개발 도구를 사용합니다.
+[비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등 본인에게 편리한 개발 도구를 사용합니다.
 
 - Atom 플러그인
 
-  - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
   - [Emmet](<https://ko.wikipedia.org/wiki/%EC%97%90%EB%B0%8B_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
   - [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
-  - [pigments](https://atom.io/packages/pigments) - 파일 내에서 색상 표현
+  - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
+  - [pigments](https://atom.io/packages/pigments) - 소스 파일 내에서 색상 표현
   - [gitplus](https://atom.io/packages/git-plus) - Git 터미널 없이 사용
-  - [color-picker](https://atom.io/packages/color-picker)- 색상 추출
+  - [color-picker](https://atom.io/packages/color-picker)- 소스 파일 내에서 색상 추출
 
 ## 디버깅 및 성능 개선
 
@@ -67,7 +67,7 @@
 ## 유용한 크롬 확장 프로그램
 
 - [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme) - 웹 페이지 컴포넌트 사이즈 측정
-- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?catego...&hl=ko) - 색상 값 추출
+- [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?catego...&hl=ko) - 웹 페이지의 색상 추출
 
 ## 작성자
 
@@ -142,14 +142,14 @@
 - [노마드 아카데미](https://academy.nomadcoders.co/blog/15754/order/) - 기존 서비스를 따라 만들며 배우는 컨셉의 동영상 강의 (한글 자막)
 
 - [MDN - Web 개발 학습하기](https://developer.mozilla.org/ko/docs/Learn) - 좋은 학습 관련 사이트 모음 있음
-- [Bootstrap (한글 번역)](http://bootstrapk.com/) - 비공식 사이트
+- [Bootstrap 컴포넌트 (한글 번역)](http://bootstrapk.com/components/#dropdowns) - 비공식 사이트 (과거 버전 v3.3.2)
 - [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
 - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
 
 ### 영어 학습 자료
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/)
-- [Bootstrap](https://getbootstrap.com/) - 공식 사이트
+- [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/) - 공식 사이트(현재 버전 v4.1.3) 컴포넌트
 - [Git Book](https://git-scm.com/book/en/v2)
 - [w3schools HTML5](https://www.w3schools.com/html/)
 - [w3schools CSS](https://www.w3schools.com/css/)
