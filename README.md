@@ -36,7 +36,7 @@
 
 ## 사용 라이브러리 (프레임워크)
 
-- [부트스트랩](http://bootstrapk.com/) (Bootstrap) ver.4.1.3 - 가장 인기 있는 HTML, CSS 및 JS 프레임워크 (라이브러리)
+- [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3 - 세계에서 가장 널리 사용되는 프런트엔드 컴포넌트 라이브러 (반응형 웹, 모바일 우선 프로젝트를 구축)
 - [폰트어썸](http://fontawesome.io) (Font Awesome) ver.5 - 가장 인기있는 아이콘과 도구 모음
 
 ## 개발 도구
