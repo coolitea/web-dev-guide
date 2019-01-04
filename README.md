@@ -148,10 +148,15 @@
 - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
 - [CSS - BEM 방법론](https://medium.com/witinweb/css-%EB%B0%A9%EB%B2%95%EB%A1%A0-1-bem-block-element-modifier-1c03034e65a1) - 블록(Block), 요소(Element), 수식어(Modifier)
 - [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
+- [공개SW 포털](https://www.oss.kr/)
+  - [공개SW 솔루션 가이드](https://www.oss.kr/solution_guide)
+  - [공개SW 활용](https://www.oss.kr/oss_use) - 공개SW 목록
+  - [공개SW 라이선스](https://www.oss.kr/oss_license)
 
 ### 영어 학습 자료
-- [Roadmap to becoming a Web Developer](https://github.com/kamranahmedse/developer-roadmap)
-  - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
+
+- [Roadmap to becoming a Web Developer](https://github.com/kamranahmedse/developer-roadmap) - 웹 개발자가 되기 위한 로드맵
+  - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) - 프론트엔드 로드맵
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/)
 - [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/) - 공식 사이트(현재 버전 v4.1.3) 컴포넌트
 - [w3schools](https://www.w3schools.com/)
