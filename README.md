@@ -145,19 +145,25 @@
   - [레이아웃](http://bootstrap4.kr/docs/4.0/layout/overview/)
   - [컨텐츠](http://bootstrap4.kr/docs/4.0/content/reboot/)
   - [컴포넌트](http://bootstrap4.kr/docs/4.0/components/alerts/)
-- [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
 - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
+- [CSS - BEM 방법론](https://medium.com/witinweb/css-%EB%B0%A9%EB%B2%95%EB%A1%A0-1-bem-block-element-modifier-1c03034e65a1) - 블록(Block), 요소(Element), 수식어(Modifier)
+- [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
 
 ### 영어 학습 자료
-
+- [Roadmap to becoming a Web Developer](https://github.com/kamranahmedse/developer-roadmap)
+  - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/)
 - [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/) - 공식 사이트(현재 버전 v4.1.3) 컴포넌트
-- [Git Book](https://git-scm.com/book/en/v2)
-- [w3schools HTML5](https://www.w3schools.com/html/)
-- [w3schools CSS](https://www.w3schools.com/css/)
-- [w3schools Java Script](https://www.w3schools.com/js/)
+- [w3schools](https://www.w3schools.com/)
+  - [w3schools HTML5](https://www.w3schools.com/html/)
+  - [w3schools CSS](https://www.w3schools.com/css/)
+  - [w3schools Java Script](https://www.w3schools.com/js/)
 - [Google Developers - Web](https://developers.google.com/web/)
-- [BEM](http://getbem.com/introduction/)(Blocks, Elements and Modifiers) - 프론트엔드 컴포넌트 명명 규칙
+- [BEM 방법론](http://getbem.com/introduction/)(Blocks, Elements and Modifiers)(BEM Methodologies)
+  - [Get BEM](http://getbem.com/)
+  - [BEM](https://en.bem.info/)
+  - [BEM File Structure](https://en.bem.info/methodology/filestructure/)
+- [Git Book](https://git-scm.com/book/en/v2)
 - [World Wide Web Consortium](https://www.w3.org/)(W3C) - 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직
 
 ### 웹 개발 도구 관련 참고 사이트 (영문)
