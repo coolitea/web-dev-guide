@@ -140,9 +140,11 @@
 ### 한글 학습 자료
 
 - [노마드 아카데미](https://academy.nomadcoders.co/blog/15754/order/) - 기존 서비스를 따라 만들며 배우는 컨셉의 동영상 강의 (한글 자막)
-
 - [MDN - Web 개발 학습하기](https://developer.mozilla.org/ko/docs/Learn) - 좋은 학습 관련 사이트 모음 있음
-- [Bootstrap 컴포넌트 (한글 번역)](http://bootstrapk.com/components/#dropdowns) - 비공식 사이트 (과거 버전 v3.3.2)
+- [Bootstrap 컴포넌트 (한글 번역)](http://bootstrap4.kr/) - 비공식 사이트 (과거 버전 v4.0)
+  - [레이아웃](http://bootstrap4.kr/docs/4.0/layout/overview/)
+  - [컨텐츠](http://bootstrap4.kr/docs/4.0/content/reboot/)
+  - [컴포넌트](http://bootstrap4.kr/docs/4.0/components/alerts/)
 - [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
 - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
 
