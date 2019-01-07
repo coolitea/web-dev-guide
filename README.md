@@ -184,3 +184,6 @@
 
 - [리액트](http://reactjs.org) (React) - 자바스크립트 라이브러리
 - [타입스크립트](https://www.typescriptlang.org/) (TypeScript) - 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다.
+- [국제화(Internationalization, I18n)와 지역화(Localization, L10n)](https://ko.wikipedia.org/wiki/국제화와_지역화/)
+  - [LocalePlanet](http://www.localeplanet.com/)
+  - [JavaScript Localization](https://phraseapp.com/blog/posts/step-step-guide-javascript-localization/)
