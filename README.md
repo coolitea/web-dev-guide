@@ -34,6 +34,16 @@
 - CSS
 - 자바스크립트 (JavaScript)
 
+## 검토 UI 개발 도구(프레임워크)
+
+- SAP
+  - [SAP 피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
+  - [SAPUI5](http://krksap.tistory.com/270?category=559218)
+  - [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) (오픈소스 버전)- [https://openui5.org/](https://openui5.org/)
+- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php) - 태그 결과
+  - 제품설명회(2018.12.03.)
+- 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - XML 변환 결과
+
 ## 사용 라이브러리 (프레임워크)
 
 - [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3 - 세계에서 가장 널리 사용되는 프런트엔드 컴포넌트 라이브러 (반응형 웹, 모바일 우선 프로젝트를 구축)
@@ -79,7 +89,6 @@
 
 - 개인정보 영향평가에 관한 고시
 - 개인정보의 안전성 확보조치 기준
-- 개인정보 영향평가에 관한 고시
 - 표준 개인정보 보호지침
 
 ### [전자정부법](http://www.law.go.kr/법령/전자정부법)
@@ -152,6 +161,7 @@
   - [공개SW 솔루션 가이드](https://www.oss.kr/solution_guide)
   - [공개SW 활용](https://www.oss.kr/oss_use) - 공개SW 목록
   - [공개SW 라이선스](https://www.oss.kr/oss_license)
+- [미 정부, 공공기관 웹디자인 표준안 오픈소스로 공개](http://www.bloter.net/archives/239720)
 
 ### 영어 학습 자료
 
@@ -170,8 +180,25 @@
   - [BEM File Structure](https://en.bem.info/methodology/filestructure/)
 - [Git Book](https://git-scm.com/book/en/v2)
 - [World Wide Web Consortium](https://www.w3.org/)(W3C) - 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직
+- [Developing Web Apps with SAPUI5](https://open.sap.com/courses/ui51)
+- [미국정부 웹사이트 가이드라인 공식 홈페이지](https://designsystem.digital.gov/)
+  - [미국정부 웹사이트 가이드라인 깃허브](https://github.com/uswds/uswds)
+  - [미국정부 웹사이트 가이드라인 공식 발표 문서](https://18f.gsa.gov/2015/09/28/web-design-standards/)
 
 ### 웹 개발 도구 관련 참고 사이트 (영문)
+
+- [SAP](https://www.sap.com/korea/index.html)
+
+  - [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/)
+
+    - [Form Field Validation](Form Field Validation) - 조회 조건 및 입력 데이터 등 유효성 체크에 사용
+    - [[List Report](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) - 리스트(그리드) 컨트롤
+    - [UI Elements](https://experience.sap.com/fiori-design-web/form/#components) - 버튼, 체크 박스, 아이콘 등
+    - [문서 - 샘플](https://sapui5.hana.ondemand.com/#/controls)
+
+  - [SAPUI5](https://developers.sap.com/korea/topics/ui-development.html) - UI 개발 도구
+
+    - [문서 - Get Started: Setup and Tutorials](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218)
 
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/) - Emmet 단축키
 - [GitHub Desktop](https://desktop.github.com/)
