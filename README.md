@@ -36,13 +36,20 @@
 
 ## 검토 UI 개발 도구(프레임워크)
 
-- SAP
-  - [SAP 피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
+### 상용 UI 개발 도구(프레임워크)
+
+- SAP [피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
   - [SAPUI5](http://krksap.tistory.com/270?category=559218)
-  - [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) (오픈소스 버전)- [https://openui5.org/](https://openui5.org/)
 - 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php) - 태그 결과
   - 제품설명회(2018.12.03.)
 - 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - XML 변환 결과
+
+### 오픈소스 UI 개발 도구(프레임워크)
+
+- [리액트](http://reactjs.org) (React) - [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
+- [뷰.js](https://kr.vuejs.org/)(Vue.js) - [GitHub 저장소](https://github.com/vuejs/vue) (Star: 17,770)
+- [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) - SAPUI5 오픈소스 버전. [GitHub 저장소](https://github.com/SAP/openui5) (Star: 1,801)
+- [앵귤러](https://angular.io/) - [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
 
 ## 사용 라이브러리 (프레임워크)
 
@@ -209,7 +216,6 @@
 
 ## 추후 연구 대상
 
-- [리액트](http://reactjs.org) (React) - 자바스크립트 라이브러리
 - [타입스크립트](https://www.typescriptlang.org/) (TypeScript) - 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다.
 - [국제화(Internationalization, I18n)와 지역화(Localization, L10n)](https://ko.wikipedia.org/wiki/국제화와_지역화)
   - [LocalePlanet](http://www.localeplanet.com/)
