@@ -24,44 +24,61 @@
 
   - [프로그레시브 웹 앱 (Progressive Web App, PWA)](https://developer.mozilla.org/ko/docs/Apps/Progressive)
 
+## 웹사이트 개발 가이드라인 우수 사례
+
+- [U.S. Web Design System](https://designsystem.digital.gov/) - 미국 정부 웹사이트 가이드라인
+
 ## 데모 사이트
 
 [전자투표 데모 사이트](https://coolitea.github.io/evote-clone-with-bootstrap/) - 부트스트랩 사용
 
-## 개발 언어
+## 기본 언어
 
-- HTML5
-- CSS
-- 자바스크립트 (JavaScript)
+- HTML5, CSS, 자바스크립트
 
-## 검토 UI 개발 도구(프레임워크)
+## 프레임워크
 
-### 상용 UI 개발 도구(프레임워크)
+### HTML5 프레임워크
 
+- 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - Advanced HTML5 Framework (결과물 : XML)
+- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php) - 웹 표준 HTML5 기반 UI/UX Platform (결과물 : 태그)
+  - 제품 설명회(2018.12.03.)
+- 투비소프트 [넥사크로 플랫폼 17](http://www.tobesoft.com/product/Nexacro17.do) - OSMU 솔루션 (맞춤형 웹제작)
 - SAP [피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
-  - [SAPUI5](http://krksap.tistory.com/270?category=559218)
-- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php) - 태그 결과
-  - 제품설명회(2018.12.03.)
-- 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - XML 변환 결과
+- 토마토시스템즈 [엑스빌더6](http://www.exbuilder6.co.kr/main/main.jsp)
 
-### 오픈소스 UI 개발 도구(프레임워크)
+### CSS 프레임워크
 
-- [리액트](http://reactjs.org) (React) - [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
-- [뷰.js](https://kr.vuejs.org/)(Vue.js) - [GitHub 저장소](https://github.com/vuejs/vue) (Star: 17,770)
-- [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) - SAPUI5 오픈소스 버전. [GitHub 저장소](https://github.com/SAP/openui5) (Star: 1,801)
-- [앵귤러](https://angular.io/) - [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
+- [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3
 
-## 사용 라이브러리 (프레임워크)
+### 자바스크립트 프레임워크
 
-- [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3 - 세계에서 가장 널리 사용되는 프런트엔드 컴포넌트 라이브러 (반응형 웹, 모바일 우선 프로젝트를 구축)
-- [폰트어썸](http://fontawesome.io) (Font Awesome) ver.5 - 가장 인기있는 아이콘과 도구 모음
+- [리액트](http://reactjs.org) (React) - (추천) [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
+- [뷰.js](https://kr.vuejs.org/)(Vue.js) - 배우기 쉬움 [GitHub 저장소](https://github.com/vuejs/vue) (Star: 17,770)
+- [앵귤러](https://angular.io/) - (금융) [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
 
-## 개발 도구
+## UI 컴포넌트
 
-[비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등 본인에게 편리한 개발 도구를 사용합니다.
+### 기본 컴포넌트
 
+- [폰트어썸](http://fontawesome.io) (Font Awesome) ver.5 - 입력폼, 버튼, 아이콘, 알림창 등
+
+### 그리드, 차트 등 컴포넌트
+
+- [Infragistics Ignite UI](https://www.infragistics.com/products/ignite-ui) for JavaScript (영문)
+
+  - (한국 구매)[블루포트](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
+  - (한국 구매)[ComponentSource](https://www.componentsource.com/ko/product/infragistics-ignite-ui)
+
+- 리아모어소프트 [rMate Grid for HTML5](http://www.riamore.net/component/dataGrid.html)
+
+## UI 개발 도구
+
+- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php)
+- [SAP UI5](http://krksap.tistory.com/270?category=559218)
+  - (오픈소스 버전) [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) [GitHub 저장소](https://github.com/SAP/openui5) (Star: 1,801)
+- [비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등
 - Atom 플러그인
-
   - [Emmet](<https://ko.wikipedia.org/wiki/%EC%97%90%EB%B0%8B_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
   - [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
   - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
@@ -105,10 +122,8 @@
 - [전자정부서비스 호환성 준수지침](http://www.law.go.kr/행정규칙/전자정부서비스호환성준수지침)
 - [정보기술아키텍처 도입·운영 지침](http://www.law.go.kr/행정규칙/정보기술아키텍처도입·운영지침)
 - [클라우드컴퓨팅 발전 및 이용자 보호에 관한 법률](http://www.law.go.kr/법령/클라우드컴퓨팅발전및이용자보호에관한법률)
-
   - [씨앗](https://www.ceart.kr/) - 클라우드 스토어. 클라우드 관련 정보
   - 행안부 '공공기관 민간 클라우드 이용가이드' 폐지
-
 - [전자정부 성과관리 지침](http://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000113669)
 
 ### [국가정보화 기본법](http://www.law.go.kr/법령/국가정보화기본법)
@@ -195,18 +210,13 @@
 ### 웹 개발 도구 관련 참고 사이트 (영문)
 
 - [SAP](https://www.sap.com/korea/index.html)
-
   - [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/)
-
     - [Form Field Validation](Form Field Validation) - 조회 조건 및 입력 데이터 등 유효성 체크에 사용
     - [[List Report](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) - 리스트(그리드) 컨트롤
     - [UI Elements](https://experience.sap.com/fiori-design-web/form/#components) - 버튼, 체크 박스, 아이콘 등
     - [문서 - 샘플](https://sapui5.hana.ondemand.com/#/controls)
-
   - [SAPUI5](https://developers.sap.com/korea/topics/ui-development.html) - UI 개발 도구
-
     - [문서 - Get Started: Setup and Tutorials](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218)
-
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/) - Emmet 단축키
 - [GitHub Desktop](https://desktop.github.com/)
 - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
