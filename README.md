@@ -68,11 +68,12 @@
 
 ### 그리드, 차트 등 컴포넌트
 
-- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui) (Infragistics Ignite UI for JavaScript) (외산)
-
-  - (한국 구매)[블루포트](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
+- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui) (외산)
+  - (한국 구매)[블루포트]
+    - [Infragistics Ignite UI for JavaScript](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
+    - [Infragistics Professional](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005225)
+    - [Infragistics Ultimate](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005222)
   - (한국 구매)[ComponentSource](https://www.componentsource.com/ko/product/infragistics-ignite-ui)
-
 - 우리테크인터내셔날 [리얼 그리드](http://www.realgrid.com/)
 - 리아모어소프트 [알메이트 그리드](http://www.riamore.net/component/dataGrid.html)(rMate Grid for HTML5)
 
