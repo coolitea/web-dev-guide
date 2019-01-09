@@ -40,15 +40,14 @@
 
 ### HTML5 프레임워크
 
-- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php) - 웹 표준 HTML5 기반 UI/UX Platform (결과물 : 태그)
+- 인젠트 [아이젭](http://www.inzent.com/product/mobile_solution_2.php) - 웹 표준 HTML5 기반 UI/UX Platform (결과물 : 태그)
   - 제품 설명회(2018.12.03.)
 - 소프트베이스 [엑스프레임5](http://www.xframe.co.kr/products/xFrame5_lite.php)(xFrame5 Lite)
-  - (협력 체제)[엑시스제이](https://axisj.com/)(AXISJ)
-    - [AXBoot](https://axisj.com/axboot/) - 풀스택 웹 개발 프레임워크
-    - [AX5](https://axisj.com/ax5/)
+  - 오픈소스그룹 [엑시스제이](https://axisj.com/)(AXISJ)와 협력 체제 - AXBoot(개발 프레임워크) 및 AX5(UI 컴포넌트)
 - SAP [피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
 - 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - Advanced HTML5 Framework (결과물 : XML)
 - 투비소프트 [넥사크로 플랫폼 17](http://www.tobesoft.com/product/Nexacro17.do) - OSMU 솔루션 (맞춤형 웹제작)
+  - 제품 설명회(2019.01.16.)
 - 토마토시스템즈 [엑스빌더6](http://www.exbuilder6.co.kr/main/main.jsp)
 
 ### CSS 프레임워크
@@ -69,32 +68,33 @@
 
 ### 그리드, 차트 등 컴포넌트
 
-- [Infragistics Ignite UI](https://www.infragistics.com/products/ignite-ui) for JavaScript (영문)
+- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui) (Infragistics Ignite UI for JavaScript) (외산)
 
   - (한국 구매)[블루포트](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
   - (한국 구매)[ComponentSource](https://www.componentsource.com/ko/product/infragistics-ignite-ui)
 
-- 리아모어소프트 [rMate Grid for HTML5](http://www.riamore.net/component/dataGrid.html)
-- 우리테크인터내셔날 [리얼그리드](http://www.realgrid.com/)
+- 우리테크인터내셔날 [리얼 그리드](http://www.realgrid.com/)
+- 리아모어소프트 [알메이트 그리드](http://www.riamore.net/component/dataGrid.html)(rMate Grid for HTML5)
 
 ## UI 개발 도구
 
-- 인젠트 [iXeb](http://www.inzent.com/product/mobile_solution_2.php)
-- [SAP UI5](http://krksap.tistory.com/270?category=559218)
+- 인젠트 [아이젭 스튜디오](http://www.inzent.com/product/mobile_solution_2.php)
+- SAP [SAPUI5](http://krksap.tistory.com/270?category=559218)
   - (오픈소스 버전) [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) [GitHub 저장소](https://github.com/SAP/openui5) (Star: 1,801)
-- [비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C), [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>) 등
-- Atom 플러그인
-  - [Emmet](<https://ko.wikipedia.org/wiki/%EC%97%90%EB%B0%8B_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
-  - [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
-  - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
-  - [pigments](https://atom.io/packages/pigments) - 소스 파일 내에서 색상 표현
-  - [gitplus](https://atom.io/packages/git-plus) - Git 터미널 없이 사용
-  - [color-picker](https://atom.io/packages/color-picker)- 소스 파일 내에서 색상 추출
+- [비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C)
+- [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>)
+  - 아톰 플러그인
+    - [Emmet](<https://ko.wikipedia.org/wiki/%EC%97%90%EB%B0%8B_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)>) - HTML, CSS 웹 개발 생산성 향상 도구 (자동 완성)
+    - [prettier-Atom](https://atom.io/packages/prettier-atom) - 포맷 맞추기 (저장 시 자동 적용 가능)
+    - [minimap](https://atom.io/packages/minimap) - 전체 소스 미리보기 지도
+    - [pigments](https://atom.io/packages/pigments) - 소스 파일 내에서 색상 표현
+    - [gitplus](https://atom.io/packages/git-plus) - Git 터미널 없이 사용
+    - [color-picker](https://atom.io/packages/color-picker)- 소스 파일 내에서 색상 추출
 
 ## 디버깅 및 성능 개선
 
 - [크롬 개발자 도구](https://developers.google.com/web/tools/chrome-devtools/?hl=ko) (Chrome DevTools) - 디버깅 도구
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse/v3/scoring?hl=ko) - 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
+- [라이트하우스](https://developers.google.com/web/tools/lighthouse/v3/scoring?hl=ko) (Lighthouse)- 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
 - [구글 페이지 스피드 인사이트](https://developers.google.com/speed/pagespeed/insights/?hl=ko) (Page Speed Insights) -
   웹 사이트 속도 측정 및 개선 방법 추천
 
