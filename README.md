@@ -222,6 +222,9 @@
 - [미국정부 웹사이트 가이드라인 공식 홈페이지](https://designsystem.digital.gov/)
   - [미국정부 웹사이트 가이드라인 깃허브](https://github.com/uswds/uswds)
   - [미국정부 웹사이트 가이드라인 공식 발표 문서](https://18f.gsa.gov/2015/09/28/web-design-standards/)
+- [구글 디자인 리소스](https://design.google/resources/)
+  - [머티리얼 디자인](https://ko.wikipedia.org/wiki/%EB%A8%B8%ED%8B%B0%EB%A6%AC%EC%96%BC_%EB%94%94%EC%9E%90%EC%9D%B8) (Material Design) - [https://material.io/](https://material.io/)
+  - [Google Fonts](https://fonts.google.com/)
 
 ### 웹 개발 도구 관련 참고 사이트 (영문)
 
