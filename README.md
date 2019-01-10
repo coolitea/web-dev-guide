@@ -48,15 +48,16 @@
 - 표준프레임워크 3.7 (2018년 3월 공개)
   - [실행환경 아키텍쳐 구성](http://www.egovframe.go.kr/EgovEnvRun.jsp?menu=1&submenu=3&leftsub=1)
 
-### HTML5 프레임워크
+### UI/UX 플랫폼
 
-- 인젠트 [아이젭](http://www.inzent.com/product/mobile_solution_2.php) - 웹 표준 HTML5 기반 UI/UX Platform (결과물 : 태그)
+- 인젠트 [아이젭](http://www.inzent.com/product/mobile_solution_2.php) - (결과물 : 태그)
   - 제품 설명회(2018.12.03.)
 - 소프트베이스 [엑스프레임5](http://www.xframe.co.kr/products/xFrame5_lite.php)(xFrame5 Lite)
+  - 제품 설명회(2019.01.17.)
   - 오픈소스그룹 [엑시스제이](https://axisj.com/)(AXISJ)와 협력 체제 - [AXBoot](https://axisj.com/axboot/)(개발 프레임워크) 및 [AX5](https://axisj.com/ax5/)(UI 컴포넌트)
 - SAP [피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
 - 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - Advanced HTML5 Framework (결과물 : XML)
-- 투비소프트 [넥사크로 플랫폼 17](http://www.tobesoft.com/product/Nexacro17.do) - OSMU 솔루션 (맞춤형 웹제작)
+- 투비소프트 [넥사크로 플랫폼 17](http://www.tobesoft.com/product/Nexacro17.do) - (데스크탑/모바일) 맞춤형 웹 제작
   - 제품 설명회(2019.01.16.)
 - 토마토시스템즈 [엑스빌더6](http://www.exbuilder6.co.kr/main/main.jsp)
 
@@ -230,8 +231,8 @@
 
 - [SAP](https://www.sap.com/korea/index.html)
   - [SAP Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/)
-    - [Form Field Validation](Form Field Validation) - 조회 조건 및 입력 데이터 등 유효성 체크에 사용
-    - [[List Report](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) - 리스트(그리드) 컨트롤
+    - [Form Field Validation](https://experience.sap.com/fiori-design-web/form-field-validation/) - 조회 조건 및 입력 데이터 등 유효성 체크
+    - [List Report](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) - 리스트(그리드) 컨트롤
     - [UI Elements](https://experience.sap.com/fiori-design-web/form/#components) - 버튼, 체크 박스, 아이콘 등
     - [문서 - 샘플](https://sapui5.hana.ondemand.com/#/controls)
   - [SAPUI5](https://developers.sap.com/korea/topics/ui-development.html) - UI 개발 도구
