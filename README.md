@@ -26,7 +26,9 @@
 
 ## 웹사이트 개발 가이드라인 우수 사례
 
-- [U.S. Web Design System](https://designsystem.digital.gov/) - 미국 정부 웹사이트 가이드라인
+- [미 정부, 공공기관 웹디자인 표준안 오픈소스로 공개 기사](http://www.bloter.net/archives/239720)(2015.09.28.)
+  - [U.S. Web Design System](https://designsystem.digital.gov/)(영문) - 미국 정부 웹사이트 가이드라인
+    - [USWDS 2.0 베타](https://v2.designsystem.digital.gov/)(영문)
 
 ## 데모 사이트
 
@@ -34,9 +36,16 @@
 
 ## 기본 언어
 
-- HTML5, CSS, 자바스크립트
+- HTML5 (HyperText Markup Language)
+- CSS3 (Cascading Style Sheets) + (레벨4 모듚)
+- 자바스크립트 (JavaScript)
 
 ## 프레임워크
+
+### [전자정부 표준 프레임워크](http://www.egovframe.go.kr/)
+
+- 표준프레임워크 3.7 (2018년 3월 공개)
+- [실행환경 아키텍쳐 구성](http://www.egovframe.go.kr/EgovEnvRun.jsp?menu=1&submenu=3&leftsub=1)
 
 ### HTML5 프레임워크
 
@@ -54,11 +63,13 @@
 
 - [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3
 
-### 자바스크립트 프레임워크
+### 자바스크립트 프레임워크 (라이브러리)
 
-- [리액트](http://reactjs.org) (React) - (추천) [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
+- [리액트](http://reactjs.org) (React) - (추천) 라이브러리 [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
+  - Redux 또는 MobX와 함께 사용
 - [뷰.js](https://kr.vuejs.org/)(Vue.js) - 배우기 쉬움 [GitHub 저장소](https://github.com/vuejs/vue) (Star: 17,770)
-- [앵귤러](https://angular.io/) - (금융) [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
+- [앵귤러](https://angular.io/) - 프레임워크. (금융) [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
+- jQuery - 자바스크립트 라이브러리
 
 ## UI 컴포넌트
 
@@ -68,7 +79,7 @@
 
 ### 그리드, 차트 등 컴포넌트
 
-- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui) (외산)
+- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui)(공식사이트)
   - (한국 구매)[블루포트]
     - [Infragistics Ignite UI for JavaScript](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
     - [Infragistics Professional](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005225)
@@ -189,7 +200,6 @@
   - [공개SW 솔루션 가이드](https://www.oss.kr/solution_guide)
   - [공개SW 활용](https://www.oss.kr/oss_use) - 공개SW 목록
   - [공개SW 라이선스](https://www.oss.kr/oss_license)
-- [미 정부, 공공기관 웹디자인 표준안 오픈소스로 공개](http://www.bloter.net/archives/239720)
 
 ### 영어 학습 자료
 
