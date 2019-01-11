@@ -52,6 +52,9 @@
 
 - 인젠트 [아이젭](http://www.inzent.com/product/mobile_solution_2.php) - (결과물 : 태그)
   - 제품 설명회(2018.12.03.)
+- [소프트보울](http://www.softbowl.co.kr/front/main.do)
+  - [UI플랫폼 SBUx](http://www.softbowl.co.kr/front/solution/sbux.do) - 웹 표준을 준수하며, 종속적이지 않게 손쉬운 화면 개발
+  - [웹 표준 기반 웹 UI개발도구 SBGrid](https://www.sbgrid.co.kr/)
 - 소프트베이스 [엑스프레임5](http://www.xframe.co.kr/products/xFrame5_lite.php)(xFrame5 Lite)
   - 제품 설명회(2019.01.17.)
   - 오픈소스그룹 [엑시스제이](https://axisj.com/)(AXISJ)와 협력 체제 - [AXBoot](https://axisj.com/axboot/)(개발 프레임워크) 및 [AX5](https://axisj.com/ax5/)(UI 컴포넌트)
