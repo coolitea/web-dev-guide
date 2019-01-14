@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>웹 개발 가이드</title>
+    <title>웹 개발 언어 및 도구 검토</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -31,12 +31,12 @@
 
     <!-- Page Content -->
     <div class="container">
-      <div class="row"><h1>웹 개발 가이드</h1></div>
+      <div class="row"><h1>웹 개발 언어 및 도구 검토</h1></div>
       <!-- /.row -->
       <hr />
       <div class="row">
         <div class="col-lg-12">
-          <h3>모바일 우선 주의 (Mobile First Design)</h3>
+          <h3>고려 사항: 모바일 우선 주의 (Mobile First Design)</h3>
           <ul>
             <li>
               <a
@@ -48,6 +48,11 @@
                 <li>
                   핵심 기술 : 가변 그리드(fluid grid), 유연한 이미지(flexible
                   images), 미디어 쿼리(media query)
+                </li>
+                <li>Imagemin (이미지 압축 기술)</li>
+                <li>
+                  <a href="https://ko.wikipedia.org/wiki/WebP">WebP</a>와 같은
+                  이미지 형식 사용
                 </li>
               </ul>
             </li>
@@ -78,16 +83,23 @@
             alt=""
             width="10%"
           />
+
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/css3-8-1175200.png"
             alt=""
             width="10%"
           />
+
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/javascript-19-555546.png"
             alt=""
             width="10%"
           />
+          <ul>
+            <li>HTML5 (HyperText Markup Language)</li>
+            <li>CSS3 (Cascading Style Sheets) + (레벨4 모듈)</li>
+            <li>자바스크립트 (JavaScript) + jQuery</li>
+          </ul>
         </div>
       </div>
       <!-- /.row -->
@@ -97,8 +109,8 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <div class="card">
-            <h5 class="card-header">HTML5 화면 배포</h5>
+          <div class="card border-success">
+            <h5 class="card-header">HTML5 태그 화면 배포</h5>
             <div class="card-body">
               <ol>
                 <li>
@@ -112,18 +124,26 @@
                   SBUx
                 </li>
                 <li>
-                  <a href="http://tomatosystem.co.kr/" target="_blank">
-                    토마토시스템
+                  SAP
+                  <a href="http://krksap.tistory.com/270?category=559218">
+                    SAPUI5
                   </a>
-                  엑스빌더6
+                  <ul>
+                    <li>
+                      (오픈소스 버전)
+                      <a href="https://en.wikipedia.org/wiki/OpenUI5"
+                        >OpenUI5</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ol>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="card">
-            <h5 class="card-header">자체 스펙 화면배포</h5>
+          <div class="card border-danger">
+            <h5 class="card-header">자체 스펙 화면 배포</h5>
             <div class="card-body">
               <ol>
                 <li>
@@ -144,6 +164,12 @@
                   </a>
                   엑스프레임5
                 </li>
+                <li>
+                  <a href="http://tomatosystem.co.kr/" target="_blank">
+                    토마토시스템
+                  </a>
+                  엑스빌더6
+                </li>
               </ol>
             </div>
           </div>
@@ -151,71 +177,195 @@
       </div>
       <!-- /.row -->
       <hr />
+      <div class="row"><h2 class="col-lg-12">UI 컴포넌트</h2></div>
+      <!-- /.row -->
+
+      <div class="row"><h3 class="col-lg-12">기본 컴포넌트</h3></div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card border-success">
+            <h5 class="card-header">기본 아이콘</h5>
+            <div class="card-body">
+              <!--
+                <i class="fab fa-font-awesome fa-2x" style="color:#3A9CED;"></i>
+              -->
+              <a href="https://fontawesome.com/">폰트어썸</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card border-success">
+            <h5 class="card-header">폰트</h5>
+            <div class="card-body">
+              <a href="https://fonts.google.com/">구글 폰트</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row"><h3 class="col-lg-12">그리드 컴포넌트</h3></div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card border-success">
+            <h5 class="card-header">그리드 (외산)</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                인프라지스틱스
+                <a href="https://www.infragistics.com/products/ignite-ui">
+                  이그나이트 UI
+                </a>
+                <!--
+                  <ul>
+                    <li>
+                      (구매대행)
+                      <a
+                        href="http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243"
+                      >
+                        블루포트
+                      </a>
+                    </li>
+                  </ul>
+                -->
+              </li>
+              <li class="list-group-item">
+                <a href="https://www.ag-grid.com/license-pricing.php">
+                  ag-Grid
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://handsontable.com/"> HandsonTable </a>
+              </li>
+              <li class="list-group-item">
+                텔레릭 <a href="https://www.telerik.com/kendo-ui"> Kendo UI </a>
+              </li>
+              <li class="list-group-item">
+                데브익스프레스
+                <a href="https://js.devexpress.com/"> 데브익스트림 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-danger">
+            <h5 class="card-header">그리드 (국산)</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                소프트보울 <a href="https://www.sbgrid.co.kr/"> SBGrid </a>
+              </li>
+              <li class="list-group-item">
+                우리테크인터내셔날
+                <a href="http://www.realgrid.com/"> 리얼 그리드 </a>
+              </li>
+              <li class="list-group-item">
+                리아모어소프트
+                <a href="http://www.riamore.net/component/dataGrid.html">
+                  알메이트 그리드
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="http://ibleaders.com/"> 아이비리더스 </a>
+                <a href="http://www.ibsheet.com/products.html">IBsheet7</a>
+              </li>
+              <li class="list-group-item">
+                <a href="http://ui.emro.co.kr/">엠로</a> 스마트 데이타그리드
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-danger">
+            <h5 class="card-header">그리드 (오픈소스)</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="http://slickgrid.net/"> 슬릭그리드 </a>
+              </li>
+              <li class="list-group-item">
+                (한국) <a href="https://axisj.com/"> AXISJ </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
       <div class="row"><h2 class="col-lg-12">프레임워크</h2></div>
       <!-- /.row -->
 
       <div class="row">
-        <div class="col-lg-3">
-          <div class="card">
-            <h5 class="card-header">UI 컴포넌트</h5>
-            <div class="card-body">
-              <i class="fab fa-font-awesome fa-3x" style="color:#3A9CED;"></i>
-              <h5>Font Awesome</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="card">
+        <div class="col-lg-4">
+          <div class="card border-success">
             <h5 class="card-header">CSS 프레임워크</h5>
             <div class="card-body">
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-256/bootstrap-7-1175254.png"
-                alt=""
-                width="30%"
-              />
-              <h5>Bootstrap</h5>
+              <span>
+                <a href="http://bootstrap4.kr/">
+                  <img
+                    src="https://cdn.iconscout.com/icon/free/png-256/bootstrap-7-1175254.png"
+                    alt=""
+                    width="30%"
+                  />
+                  <h5>부트스트랩</h5>
+                </a>
+                <a href="https://github.com/twbs/bootstrap"> Github </a>(Star:
+                12,984)
+              </span>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card">
-            <h5 class="card-header">JS 프레임워크</h5>
-            <div class="card-body">
-              <div class="col-la-4">
+        <div class="col-lg-4">
+          <div class="card border-success">
+            <h5 class="card-header">자바스크립트 프레임워크</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
                 <span>
-                  <img
-                    src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-                    alt=""
-                    width="30%"
-                  />
-                  <h5>React</h5>
+                  <a href="https://reactjs.org">
+                    <img
+                      src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                      alt=""
+                      width="30%"
+                    />
+                    <h5>리액트</h5>
+                  </a>
+                  <a href="https://github.com/facebook/react"> GitHub </a>
+                  (Star: 119,190)
                 </span>
-              </div>
-              <div class="col-la-4">
+              </li>
+              <li class="list-group-item">
+                <span
+                  ><a href="https://kr.vuejs.org/">
+                    <img
+                      src="https://vuejsexamples.com/favicon.png"
+                      alt=""
+                      width="30%"
+                    />
+                    <h5>뷰.js</h5>
+                  </a>
+                  <a href="https://github.com/vuejs/vue">GitHub</a> (Star:
+                  17,770)
+                </span>
+              </li>
+              <li class="list-group-item">
                 <span>
-                  <img
-                    src="https://cdn.iconscout.com/icon/free/png-256/angular-3-226070.png"
-                    alt=""
-                    width="30%"
-                  />
-                  <h5>Angular</h5>
+                  <a href="https://angular.io/">
+                    <img
+                      src="https://cdn.iconscout.com/icon/free/png-256/angular-3-226070.png"
+                      alt=""
+                      width="30%"
+                    />
+                    <h5>앵귤러</h5></a
+                  >
+                  <a href="https://github.com/angular/angular.io"> GitHub </a>
+                  (Star: 1,022)
                 </span>
-              </div>
-              <div class="col-la-4">
-                <span>
-                  <img
-                    src="https://vuejsexamples.com/favicon.png"
-                    alt=""
-                    width="30%"
-                  />
-                  <h5>Vue.js</h5>
-                </span>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card">
+        <div class="col-lg-4">
+          <div class="card border-success">
             <h5 class="card-header">프레임워크(서버)</h5>
             <div class="card-body">
               <img
@@ -223,7 +373,13 @@
                 alt=""
                 width="80%"
               />
-              <p>전자정부표준프레임워크</p>
+              <p>
+                전자정부표준프레임워크 (ver.3.7)
+                <a href="https://github.com/eGovFrame/egovframework.rte.root">
+                  GitHub
+                </a>
+                (Star: 9)
+              </p>
               <!-- <h5>전자정부표준프레임워크</h5> -->
               <a href="http://www.egovframe.go.kr/" class="btn btn-primary">
                 바로가기

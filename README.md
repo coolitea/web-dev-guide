@@ -2,7 +2,11 @@
 
 모바일 우선주의 웹사이트 개발 방법 가이드
 
-## 사전 준비
+# 웹 개발 언어 및 도구 검토
+
+- [웹 개발 언어 및 도구 정보](https://coolitea.github.io/web-dev-guide/)
+
+## 지원 대상 브라우저
 
 웹표준을 지원하는 브라우저가 설치되어 있어야 합니다. 권장 브라우저는 [크롬](https://www.google.com/intl/ko_ALL/chrome/)이며, 지원 대상 브라우저는 아래와 같습니다.
 
@@ -11,18 +15,6 @@
 - [오페라](https://www.opera.com/ko) (Opera)
 - [IE 11](https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads) - Windows 7 사용자용
 - [사파리](https://www.apple.com/kr/safari/) (Safari)
-
-## 웹 개발의 기초
-
-- 모바일 우선 주의 (Mobile First Design)
-
-  - [반응형 웹 디자인 (Responsive Web Design)](https://ko.wikipedia.org/wiki/%EB%B0%98%EC%9D%91%ED%98%95_%EC%9B%B9_%EB%94%94%EC%9E%90%EC%9D%B8)
-
-    - 핵심 기술 : 가변 그리드(fluid grid), 유연한 이미지(flexible images), 미디어 쿼리(media query)
-    - Imagemin (이미지 압축 기술)
-    - [WebP](https://ko.wikipedia.org/wiki/WebP)와 같은 이미지 형식 사용
-
-  - [프로그레시브 웹 앱 (Progressive Web App, PWA)](https://developer.mozilla.org/ko/docs/Apps/Progressive)
 
 ## 웹사이트 개발 가이드라인 우수 사례
 
@@ -34,69 +26,8 @@
 
 [전자투표 데모 사이트](https://coolitea.github.io/evote-clone-with-bootstrap/) - 부트스트랩 사용
 
-## 기본 언어
-
-- HTML5 (HyperText Markup Language)
-- CSS3 (Cascading Style Sheets) + (레벨4 모듈)
-- 자바스크립트 (JavaScript)
-  - jQuery - 자바스크립트 라이브러리
-
-## 프레임워크
-
-### [전자정부 표준 프레임워크](http://www.egovframe.go.kr/)
-
-- 표준프레임워크 3.7 (2018년 3월 공개)
-  - [실행환경 아키텍쳐 구성](http://www.egovframe.go.kr/EgovEnvRun.jsp?menu=1&submenu=3&leftsub=1)
-
-### UI/UX 플랫폼
-
-- 인젠트 [아이젭](http://www.inzent.com/product/mobile_solution_2.php) - (결과물 : 태그)
-  - 제품 설명회(2018.12.03.)
-- [소프트보울](http://www.softbowl.co.kr/front/main.do)
-  - [UI플랫폼 SBUx](http://www.softbowl.co.kr/front/solution/sbux.do) - 웹 표준을 준수하며, 종속적이지 않게 손쉬운 화면 개발
-  - [웹 표준 기반 웹 UI개발도구 SBGrid](https://www.sbgrid.co.kr/)
-- 소프트베이스 [엑스프레임5](http://www.xframe.co.kr/products/xFrame5_lite.php)(xFrame5 Lite)
-  - 제품 설명회(2019.01.17.)
-  - 오픈소스그룹 [엑시스제이](https://axisj.com/)(AXISJ)와 협력 체제 - [AXBoot](https://axisj.com/axboot/)(개발 프레임워크) 및 [AX5](https://axisj.com/ax5/)(UI 컴포넌트)
-- SAP [피오리](https://www.sap.com/korea/products/fiori.html)(Fiori)
-- 인스웨이브 [웹스퀘어5](https://www.inswave.com/websquare/websquare.w.html?w2xPath=/websquare5/websquare5.xml&product=ws&seq=11) - Advanced HTML5 Framework (결과물 : XML)
-- 투비소프트 [넥사크로 플랫폼 17](http://www.tobesoft.com/product/Nexacro17.do) - (데스크탑/모바일) 맞춤형 웹 제작
-  - 제품 설명회(2019.01.16.)
-- 토마토시스템즈 [엑스빌더6](http://www.exbuilder6.co.kr/main/main.jsp)
-
-### CSS 프레임워크
-
-- [부트스트랩](http://bootstrap4.kr/) (Bootstrap) ver.4.1.3
-
-### 자바스크립트 프레임워크 (라이브러리)
-
-- [리액트](http://reactjs.org) (React) - (추천) 라이브러리 [GitHub 저장소](https://github.com/facebook/react) (Star: 119,190)
-  - Redux 또는 MobX와 함께 사용
-- [뷰.js](https://kr.vuejs.org/)(Vue.js) - 배우기 쉬움 [GitHub 저장소](https://github.com/vuejs/vue) (Star: 17,770)
-- [앵귤러](https://angular.io/) - 프레임워크. (금융) [GitHub 저장소](https://github.com/angular/angular.io) (Star: 1,022)
-
-## UI 컴포넌트
-
-### 기본 컴포넌트
-
-- [폰트어썸](http://fontawesome.io) (Font Awesome) ver.5 - 입력폼, 버튼, 아이콘, 알림창 등
-
-### 그리드, 차트 등 컴포넌트
-
-- 인프라지스틱스 [이그나이트 UI](https://www.infragistics.com/products/ignite-ui)(공식사이트)
-  - (한국 구매) 블루포트
-    - [Infragistics Ignite UI for JavaScript](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005243)
-    - [Infragistics Professional](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005225)
-    - [Infragistics Ultimate](http://shopping.blueport.co.kr/goods/goods_view.php?goodsNo=1000005222)
-  - (한국 구매) [ComponentSource](https://www.componentsource.com/ko/product/infragistics-ignite-ui)
-- 우리테크인터내셔날 [리얼 그리드](http://www.realgrid.com/)
-- 리아모어소프트 [알메이트 그리드](http://www.riamore.net/component/dataGrid.html)(rMate Grid for HTML5)
-
 ## UI 개발 도구
 
-- 인젠트 [아이젭 스튜디오](http://www.inzent.com/product/mobile_solution_2.php)
-- SAP [SAPUI5](http://krksap.tistory.com/270?category=559218)
-  - (오픈소스 버전) [OpenUI5](https://en.wikipedia.org/wiki/OpenUI5) [GitHub 저장소](https://github.com/SAP/openui5) (Star: 1,801)
 - [비주얼 스튜디오 코드](https://ko.wikipedia.org/wiki/%EB%B9%84%EC%A3%BC%EC%96%BC_%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EC%BD%94%EB%93%9C)
 - [아톰](<https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%EB%AC%B8%EC%84%9C_%ED%8E%B8%EC%A7%91%EA%B8%B0)>)
   - 아톰 플러그인
