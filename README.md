@@ -2,9 +2,9 @@
 
 모바일 우선주의 웹사이트 개발 방법 가이드
 
-# 웹 개발 언어 및 도구 검토
+# 모바일 우선 주의 (Mobile First Design) 웹 개발 검토
 
-- [웹 개발 언어 및 도구 정보](https://coolitea.github.io/web-dev-guide/)
+- [안내 사이트](https://coolitea.github.io/web-dev-guide/)
 
 ## 지원 대상 브라우저
 
