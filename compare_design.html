@@ -33,36 +33,132 @@
       rel="stylesheet"
       href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-balham.css"
     />
-
-    <base target="_blank" />
   </head>
 
   <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">KSD 웹표준 가이드</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#WEB-DESIGN">웹 디자인</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                방법론
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#CSS-METHOD"
+                  >CSS 방법론</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#LANGUAGE">프로그래밍 언어</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                컴포넌트
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#FONT">폰트</a>
+                <a class="dropdown-item" href="index.html#ICON">기본 아이콘</a>
+                <a class="dropdown-item" href="index.html#GRID"
+                  >그리드 컴포넌트</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                프레임워크
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#UIUX-FRAMEWORK"
+                  >UI/UX 플랫폼</a
+                >
+                <a class="dropdown-item" href="index.html#CSS-FRAMEWORK"
+                  >CSS 프레임워크</a
+                >
+                <a class="dropdown-item" href="index.html#JS-FRAMEWORK"
+                  >자바스크립트 프레임워크</a
+                >
+                <a class="dropdown-item" href="index.html#SERVER-FRAMEWORK"
+                  >서버 프레임워크</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <header></header>
 
     <!-- Page Content -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <h1>모바일 우선 주의 (Mobile First Design) 웹 개발 검토</h1>
-        </div>
+        <div class="col-lg-12"><h1>모바일 우선 주의 웹 개발 검토</h1></div>
       </div>
       <!-- /.row -->
 
       <hr />
       <div class="row">
-        <div class="col-lg-12"><h3>웹 디자인 (택1)</h3></div>
+        <div class="col-lg-12"><h3 id="WEB-DESIGN">웹 디자인 (택1)</h3></div>
       </div>
-
       <div class="row">
-        <div class="col-lg-12">
-          <ul>
-            <li>
+        <div class="col-lg-6">
+          <div class="card border-success">
+            <h5 class="card-header">
               <a
                 href="https://ko.wikipedia.org/wiki/%EB%B0%98%EC%9D%91%ED%98%95_%EC%9B%B9_%EB%94%94%EC%9E%90%EC%9D%B8"
+                >반응형 웹 (Responsive Web Design)</a
               >
-                반응형 웹 디자인 (Responsive Web Design)
-              </a>
+            </h5>
+            <div class="card-body">
+              <u>하나의 템플릿</u>을 사용해 모든 기기에 대응
+
               <ul>
                 <li>
                   핵심 기술 : 가변 그리드(fluid grid), 유연한 이미지(flexible
@@ -74,16 +170,37 @@
                   이미지 형식 사용
                 </li>
               </ul>
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org/ko/docs/Apps/Progressive">
-                프로그레시브 웹 앱 (Progressive Web App, PWA)
-              </a>
-            </li>
-          </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card text-center border-danger">
+            <h5 class="card-header">
+              <a
+                href="https://ko.wikipedia.org/wiki/%EC%A0%81%EC%9D%91%ED%98%95_%EC%9B%B9_%EB%94%94%EC%9E%90%EC%9D%B8"
+                >적응형 웹</a
+              >
+            </h5>
+            <div class="card-body">
+              선별된 기기 유형에 따라 <u>별도의 템플릿</u> 준비
+            </div>
+          </div>
         </div>
       </div>
       <!-- /.row -->
+      <hr />
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="https://developer.mozilla.org/ko/docs/Apps/Progressive">
+            <h2>프로그레시브 웹 앱 (Progressive Web App, PWA)</h2>
+          </a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row"><div class="col-lg-12">추후 작성 예정</div></div>
+      <!-- /.row -->
+      <hr />
     </div>
     <!-- /.container -->
 

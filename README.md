@@ -1,10 +1,6 @@
 # 웹 개발 가이드
 
-모바일 우선주의 웹사이트 개발 방법 가이드
-
-## 검토 내역
-
-- 모바일 우선 주의 (Mobile First Design) 웹 개발 검토 [https://coolitea.github.io/web-dev-guide/](https://coolitea.github.io/web-dev-guide/)
+- KSD 웹표준 가이드 (제품 검토중) [https://coolitea.github.io/web-dev-guide/](https://coolitea.github.io/web-dev-guide/)
 
 ## 지원 대상 브라우저
 

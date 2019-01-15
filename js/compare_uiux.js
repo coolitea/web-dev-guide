@@ -45,7 +45,7 @@ var rowData = [
   {
     company: "인젠트",
     solution: "아이젭",
-    design: "-",
+    design: "반응형",
     devSpec: "HTML5",
     deploySpec: "HTML5"
   },
@@ -59,30 +59,30 @@ var rowData = [
   {
     company: "인스웨이브",
     solution: "웹스퀘어",
-    design: "-",
+    design: "적응형",
     devSpec: "xForm-HTML 혼용",
-    deploySpec: ""
+    deploySpec: "업체고유스펙"
   },
   {
     company: "투비소프트",
     solution: "넥사크로플랫폼17",
     design: "적응형",
-    devSpec: "업체 고유스펙",
-    deploySpec: ""
+    devSpec: "업체고유스펙",
+    deploySpec: "업체고유스펙"
   },
   {
     company: "소프트베이스",
     solution: "엑스프레임5",
-    design: "-",
-    devSpec: "-",
-    deploySpec: ""
+    design: "적응형",
+    devSpec: "업체고유스펙",
+    deploySpec: "업체고유스펙"
   },
   {
     company: "토마토시스템",
     solution: "엑스빌더6",
-    design: "-",
-    devSpec: "-",
-    deploySpec: ""
+    design: "적응형",
+    devSpec: "업체고유스펙",
+    deploySpec: "업체고유스펙"
   }
 ];
 
