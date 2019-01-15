@@ -1,6 +1,6 @@
 # 웹 개발 가이드
 
-- KSD 웹표준 가이드 (제품 검토중) [https://coolitea.github.io/web-dev-guide/](https://coolitea.github.io/web-dev-guide/)
+- 웹표준 가이드 (제품 검토중) [https://coolitea.github.io/web-dev-guide/](https://coolitea.github.io/web-dev-guide/)
 
 ## 지원 대상 브라우저
 
