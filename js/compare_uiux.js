@@ -1,38 +1,88 @@
 // specify the columns
 var columnDefs = [
-  { headerName: "업체", field: "company" },
-  { headerName: "제품명", field: "solution" },
-  { headerName: "디자인", field: "design" },
-  { headerName: "화면개발스펙", field: "devSpec" }
+  {
+    headerName: "디자인",
+    field: "design",
+    sort: "asc",
+    sortable: true,
+    filter: true,
+    width: 150
+  },
+  {
+    headerName: "화면개발스펙",
+    field: "devSpec",
+    sort: "asc",
+    sortable: true,
+    filter: true,
+    width: 150
+  },
+  {
+    headerName: "화면배포방식",
+    field: "deploySpec",
+    sort: "asc",
+    sortable: true,
+    filter: true,
+    width: 150
+  },
+  {
+    headerName: "업체",
+    field: "company",
+    sort: "asc",
+    sortable: true,
+    filter: true,
+    width: 200
+  },
+  {
+    headerName: "제품명",
+    field: "solution",
+    sortable: true,
+    filter: true
+  }
 ];
 
 // specify the data
 var rowData = [
   {
+    company: "인젠트",
+    solution: "아이젭",
+    design: "-",
+    devSpec: "HTML5",
+    deploySpec: "HTML5"
+  },
+  {
+    company: "소프트보울",
+    solution: "SBUx",
+    design: "반응형",
+    devSpec: "HTML5",
+    deploySpec: "HTML5"
+  },
+  {
     company: "인스웨이브",
     solution: "웹스퀘어",
     design: "-",
-    devSpec: "xForm-HTML 혼용"
+    devSpec: "xForm-HTML 혼용",
+    deploySpec: ""
   },
   {
     company: "투비소프트",
     solution: "넥사크로플랫폼17",
     design: "적응형",
-    devSpec: "업체 고유스펙"
+    devSpec: "업체 고유스펙",
+    deploySpec: ""
   },
   {
     company: "소프트베이스",
     solution: "엑스프레임5",
     design: "-",
-    devSpec: "-"
+    devSpec: "-",
+    deploySpec: ""
   },
-  { company: "토마토시스템", solution: "엑스빌더6", design: "-", devSpec: "-" },
-  { company: "인젠트", solution: "아이젭", design: "-", devSpec: "HTML5" },
   {
-    company: "소프트보울",
-    solution: "SBUx",
-    design: "반응형",
-    devSpec: "HTML5"
+    company: "토마토시스템",
+    solution: "엑스빌더6",
+    design: "-",
+    devSpec: "-",
+    deploySpec: ""
   }
 ];
 
