@@ -59,7 +59,7 @@ var rowData = [
   {
     company: "인스웨이브",
     solution: "웹스퀘어",
-    design: "적응형",
+    design: "반응형",
     devSpec: "xForm-HTML 혼용",
     deploySpec: "업체고유스펙"
   },
