@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>웹표준 가이드</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- ag-grid -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-balham.css"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> 웹표준 가이드</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#WEB-DESIGN">웹 디자인</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                방법론
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#CSS-METHOD"
+                  >CSS 방법론</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#LANGUAGE">프로그래밍 언어</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                컴포넌트
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#FONT">폰트</a>
+                <a class="dropdown-item" href="index.html#ICON">기본 아이콘</a>
+                <a class="dropdown-item" href="index.html#GRID"
+                  >그리드 컴포넌트</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                프레임워크
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right"
+                aria-labelledby="navbarDropdownBlog"
+              >
+                <a class="dropdown-item" href="index.html#UIUX-FRAMEWORK"
+                  >UI/UX 플랫폼</a
+                >
+                <a class="dropdown-item" href="index.html#CSS-FRAMEWORK"
+                  >CSS 프레임워크</a
+                >
+                <a class="dropdown-item" href="index.html#JS-FRAMEWORK"
+                  >자바스크립트 프레임워크</a
+                >
+                <a class="dropdown-item" href="index.html#SERVER-FRAMEWORK"
+                  >서버 프레임워크</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#RESTRICTIONS">제약사항</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header></header>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12"><h1>모바일 우선 주의 웹 개발 검토</h1></div>
+      </div>
+      <!-- /.row -->
+      <hr />
+      <div class="row">
+        <div class="col-lg-12"><h3>제약사항</h3></div>
+      </div>
+
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>
+            <a
+              href="http://www.law.go.kr/행정규칙/모바일전자정부서비스관리지침"
+            >
+              모바일 전자정부 서비스 관리 지침
+            </a>
+          </h4>
+          <p>
+            <span>
+              <b>제1조(목적)</b> 이 지침은「전자정부법」제16조에 따라 국가기관,
+              지방자치단체 및 공공기관이 모바일 전자정부 서비스를 구축하고
+              관리하는 경우 준수해야할 세부 사항을 규정하는 것을 목적으로 한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제2조(정의)</b> 이 지침에서 사용하는 용어의 뜻은 다음과 같다.
+              <br />
+              5. "모바일 대민서비스"란 행정기관등이 스마트폰 등 모바일 기기를
+              통해 국민, 기업에게 제공하는 공공서비스를 의미한다. <br />
+              6. "모바일 웹(Web)"이란 스마트폰 등 모바일 기기의 브라우저에
+              최적화된 웹페이지를 의미한다. <br />
+              7. "반응형 웹(Web)"이란 화면 종류에 따라 화면의 크기가 자동으로
+              최적화되도록 조절되는 웹 페이지를 의미한다. <br />
+              8. "모바일 앱(App)"이란 모바일 기기 운영체계(OS)에 최적화되어
+              단독으로 실행될 수 있도록 개발된 애플리케이션(application)을
+              의미한다. <br />
+              9. "하이브리드 앱(Hybrid App)"이란 모바일 앱과 웹이 결합된 형태로
+              외부형태는 모바일 앱 이지만 실제운영은 HTML, 자바스크립트 등의 웹
+              리소스를 이용하는 애플리케이션(application)을 의미한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제18조(서비스 방식)</b> ① 행정기관등의 장은 모바일 대민서비스를
+              구축·운영하고자 할 경우
+              <span class="text-danger">"반응형 웹"</span>으로 구축하여야 하며,
+              "전자정부서비스 호환성 준수지침" 제5조 및 제6조에 따라 웹 표준을
+              준수하고 비표준기술은 제거해야 한다. 다만, 서비스 특성 등으로 인해
+              반응형 웹으로 구축하기 어려운 경우에는 모바일 웹, 모바일 앱 또는
+              하이브리드 앱 형태로 개발할 수 있다.
+            </span>
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>
+            <a
+              href="http://www.law.go.kr/행정규칙/전자정부서비스호환성준수지침"
+            >
+              전자정부서비스 호환성 준수지침
+            </a>
+          </h4>
+          <p>
+            <span>
+              <b>제1조(목적)</b> 이 지침은「전자정부법」제50조에 따라 행정기관
+              및 공공기관(이하 "행정기관등"이라 한다)이 전자정부서비스의 호환성
+              확보를 위해 지켜야 할 사항을 규정함을 목적으로 한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제2조(용어 정의)</b><br />
+              <span>
+                1. "호환성"이란 서비스 이용자 단말기(PC, 모바일기기 등)의
+                하드웨어 및 소프트웨어 환경이 다른 경우에도 동등한 서비스를
+                제공하는 것을 말한다. <br />
+                5. "웹표준"이란 국제 표준화 기구(ISO, W3C 등)에서 서술하고
+                정의하는 공식 기술표준을 말한다. <br />
+                6. "비표준 기술"이란 웹표준을 준수하지 않은 기술을 말한다.
+                <br />
+                7. "모바일 웹(Web)"이란 스마트폰 등 모바일 기기의 브라우저에
+                최적화된 웹페이지를 말한다.
+              </span>
+              <ul>
+                <li>
+                  <a href="https://validator.w3.org/">
+                    W3C Markup Validation Service
+                  </a>
+                  - 출력된 오류의 개수에 따라 감점
+                </li>
+                <li>
+                  <a href="https://jigsaw.w3.org/css-validator/">
+                    W3C CSS Validation Service
+                  </a>
+                  - CSS Level 3으로 진단
+                </li>
+              </ul>
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제4조(웹사이트 호환성 확보)</b> ① 행정기관등의 장은
+              전자정부서비스를 위한 웹사이트를 신규 개발하는 경우
+              <span class="text-danger">
+                다양한 웹브라우저에서 동등하게 서비스</span
+              >를 제공하여야 한다. ② 행정기관등의 장은 전자정부서비스를 위한
+              웹사이트를 개선, 유지보수 및 운영하는 경우 다양한 웹브라우저에서
+              동등하게 서비스를 제공하도록 노력하여야 한다.
+              <ul>
+                <li>크로스 브라우징 테스트 준용</li>
+              </ul>
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제5조(웹표준 준수)</b> 행정기관등의 장은 전자정부서비스를 위한
+              웹사이트를 신규 개발, 개선, 유지보수 및 운영하는 경우 준수하여야
+              하는 웹 표준 기술은 다음 각 호와 같다. <br />
+              <ol>
+                <li>
+                  웹페이지의 문법을 선언하고, 선언한 문법을 올바른 방식으로
+                  구현하여야 한다.
+                </li>
+                <li>
+                  웹페이지에서 문자를 부호화하는 방식은 UTF-8을 사용하는 것을
+                  원칙으로 한다. 기술적 제약 및 서비스 특성으로 인해 다른 방식을
+                  사용하는 경우에는 UTF-8에 준하는 수준으로 한글을 처리할 수
+                  있도록 조치하여야 한다.
+                </li>
+                <li>
+                  웹페이지의
+                  <span class="text-danger"
+                    >시각적 속성(크기, 색채, 배치, 정렬 및 여백 등)은 국제
+                    기술표준(CSS표준)</span
+                  >을 활용하여야 한다.
+                </li>
+                <li>
+                  웹페이지를
+                  <span class="text-danger">
+                    동적으로 구성하고 제어하는 기능은 국제 기술표준(DOM표준,
+                    ECMA-262표준 등)</span
+                  >을 활용하여야 한다.
+                </li>
+                <li>
+                  웹표준 신기술(HTML5 등)을 사용할 경우 웹사이트 호환성을
+                  확보하여야 한다.
+                </li>
+              </ol>
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제6조(비표준 기술 제거)</b> ① 행정기관등의 장은 개발, 개선,
+              유지보수 및 운영하는 전자정부서비스에 대하여 비표준기술 제거를
+              위해 노력하여야 한다. ② 행정자치부장관은 비표준기술 제거
+              추진현황과 실적을 점검하기 위하여 필요한 경우 행정기관등의 장에게
+              자료를 제출하도록 요청할 수 있다.
+
+              <ul>
+                <li>
+                  <span class="text-danger"> 비표준기술(액티브X, EXE 등)</span>
+                  사용 여부 점검
+                </li>
+                <li>
+                  <span class="text-danger">
+                    비표준 방식 멀티미디어(플래시, 실버라이트, 자바 애플릿,
+                    미디어플레이어 등)
+                  </span>
+                  사용 여부 점검
+                </li>
+                <li>
+                  모바일 환경(HW, SW)이 다른 경우에도 동등한 서비스를 제공하지
+                  못하는 경우 감점
+                </li>
+                <li>
+                  모바일 환경(HW, SW)이 다른 경우에도 동등한 멀티미디어 서비스를
+                  제공하지 못하는 경우 감점
+                </li>
+              </ul>
+            </span>
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>
+            <a
+              href="http://www.law.go.kr/행정규칙/행정기관및공공기관정보시스템구축·운영지침"
+            >
+              행정기관 및 공공기관 정보시스템 구축·운영 지침
+            </a>
+          </h4>
+          <p>
+            <span>
+              <b>제1조(목적)</b> 이 지침은 「전자정부법」 제45조제3항에 따라
+              행정기관등의 장이 정보시스템을 구축·운영함에 있어서 준수해야 할
+              기준, 표준 및 절차와 같은 법 제49조제1항에 따른 상호운용성
+              기술평가에 관한 사항을 정함을 목적으로 한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제3조(적용범위)</b> 법 제2조에서 정하는 행정기관, 공공기관(이하
+              "행정기관등"이라 한다)이 정보화사업을 추진하고자 하는 경우에 이
+              지침을 적용한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제4조(기본원칙)</b> 행정기관등의 장은 정보화사업을 추진함에
+              있어 다음 각 호의 사항을 준수하여야 한다.
+              <ol>
+                <li>
+                  행정기관등의 장은 기관의 정보기술아키텍처 또는 범정부
+                  정보기술아키텍처를 기반으로 정보시스템을 구축·운영하여야 한다.
+                  단, 영 제54조제3호에 따라 법 제2조제3호라목의 기관은
+                  행정기관등의 장의 판단에 의해 적용할 수 있다.
+                </li>
+                <li>
+                  정보시스템에 적용되는 기술은
+                  <span class="text-danger">표준화된 개방형 기술</span>을
+                  사용하는 것을 원칙으로 한다. 단, 비표준의 폐쇄형 기술을
+                  사용하는 경우에는 그 사유를 명시하여야 한다.
+                </li>
+                <li>
+                  <span class="text-danger"
+                    >데이터의 무결성, 일치성, 기밀성, 가용성 등</span
+                  >을 고려하여 구축하여야 한다.
+                </li>
+                <li>
+                  법 제51조제1항에 따라 지정된 공유서비스를 우선적으로
+                  사용하여야 한다.
+                </li>
+                <li>
+                  내부행정 처리나 의사결정을 신속히 하여 사업기간을 충분히
+                  확보하여야 한다.
+                </li>
+                <li>
+                  행정기관의 장은 국가정보화기본법 제11조에 의한
+                  정보화책임관으로 하여금 기관 내 발주자에게 정보화사업 관련
+                  제도를 자문하고, 준수현황을 관리하도록 하여야 한다.
+                </li>
+                <li>
+                  공공기관의 장은 국가정보화기본법 제11조를 준용 전담인력을
+                  지정하여 기관 내 발주자에게 정보화사업 관련 제도를 자문하고,
+                  준수현황을 관리하도록 하여야 한다.
+                </li>
+              </ol>
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제6조(하드웨어 및 소프트웨어 도입기준)</b> ① 행정기관등의 장은
+              정보화사업에서 하드웨어 및 소프트웨어 등 정보자원을 교체 또는 신규
+              도입하는 경우
+              <span class="text-danger">
+                클라우드컴퓨팅 활용 가능성을 우선 검토</span
+              >한다. 클라우드컴퓨팅 활용 가능성 검토 시 행정안전부장관이 고시한
+              "전자정부 성과관리 지침" 제23조 제2항에 따른 클라우드컴퓨팅 활용
+              대상 판단기준 등을 참조할 수 있다. <br />
+              ② 행정기관등의 장은 정보화사업에서 하드웨어를 도입하는 경우
+              한국정보통신기술협회에서 정한 "정보시스템 하드웨어 규모산정
+              지침"을 기본으로 하되 정보시스템 용도를 고려하여 조정할 수 있다.
+              <br />
+              ③ 행정기관등의 장은 정보화사업에서 소프트웨어를 개발하고자 하는
+              경우
+              <span class="text-danger">
+                전자정부표준개발프레임워크의 활용을 우선적으로 고려</span
+              >하여야 하며, 다음 각 호의 제품을 확인하고 적용가능성을 검토하여
+              특별한 사유(개발 대비 비용이 높거나, 기능구현 또는 유지보수의
+              어려움 등)가 없으면 해당 제품을 도입하여야 한다.
+              <ol>
+                <li>
+                  소프트웨어산업 진흥법 제13조에 따른 품질인증(GS인증) 1등급
+                  제품
+                </li>
+                <li>산업기술혁신촉진법 제16조에 따른 신제품인증(NEP) 제품</li>
+                <li>
+                  산업기술혁신촉진법 제15조의2에 따른 신기술인증(NET) 제품
+                </li>
+              </ol>
+
+              ④ 행정기관등의 장은 제3항 각 호의 제품 도입 시 중소기업자가 개발한
+              제품을 우선적으로 구매할 수 있도록 제안서 기술평가 기준에
+              평가항목으로 반영하여야 한다.
+            </span>
+          </p>
+          <p>
+            <span>
+              <b>제7조의2(소프트웨어 설치없는 웹사이트)</b> 행정기관 등의 장은
+              전자적 대민서비스를 구축할 때,
+              <span class="text-danger">
+                사용자가 별도의 소프트웨어 설치 없이 웹 브라우저만으로 서비스를
+                이용</span
+              >할 수 있도록 웹 표준기술을 사용하여 구축하여야 한다.
+            </span>
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+      <hr />
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; coolitea 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- ag-grid JavaScript -->
+    <script src="js/compare_uiux.js"></script>
+    <script src="js/compare_uiux_details.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

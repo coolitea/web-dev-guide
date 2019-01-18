@@ -8,19 +8,55 @@ var columnDefs = [
     ]
   },
   {
-    headerName: "디자인",
+    headerName: "반응형 웹 여부",
     children: [
       { headerName: "디자인 구분", field: "designType" },
-      { headerName: "반응형 웹 지원", field: "RWDsupport" },
-      { headerName: "모바일", field: "mobile" }
+      { headerName: "가변 그리드", field: "fluidGrid" },
+      { headerName: "유연한 이미지", field: "flexibleImage" },
+      { headerName: "미디어 쿼리", field: "mediaQuery" }
     ]
   },
   {
-    headerName: "기반 기술",
+    headerName: "호환성 확보",
     children: [
-      { headerName: "HTML5적합도", field: "html5Match" },
-      { headerName: "CSS3 지원", field: "cssSupport" },
-      { headerName: "기반기술", field: "baseSkill" }
+      { headerName: "사용자 HW", field: "" },
+      { headerName: "사용자 OS", field: "" },
+      { headerName: "크로스 브라우징", field: "" }
+    ]
+  },
+  {
+    headerName: "웹표준 준수",
+    children: [
+      { headerName: "시각적 속성 (CSS표준)", field: "" },
+      { headerName: "웹페이지 동적 구성 (DOM표준)", field: "" },
+      { headerName: "웹페이지 제어 (ECMA-262표준)", field: "" },
+      { headerName: "소프트웨어 설치", field: "" }
+    ]
+  },
+  {
+    headerName: "비표준 기술 제거",
+    children: [
+      { headerName: "액티브X", field: "" },
+      { headerName: "EXE", field: "" },
+      { headerName: "비표준 멀티미디어", field: "" },
+      { headerName: "모바일(HW, SW)", field: "" },
+      { headerName: "기타 소프트웨어 설치", field: "" }
+    ]
+  },
+  {
+    headerName: "최신 기술 여부",
+    children: [
+      { headerName: "HTML5 지원", field: "html5Support" },
+      { headerName: "ECMAScript", field: "ecmaScriptSupport" },
+      { headerName: "기반 기술", field: "baseSkill" }
+    ]
+  },
+  {
+    headerName: "인터페이스",
+    children: [
+      { headerName: "Restful", field: "restful" },
+      { headerName: "SOAP, WSDL, XML", field: "soap" },
+      { headerName: "uddi", field: "uddi" }
     ]
   },
   {
@@ -39,7 +75,6 @@ var columnDefs = [
       { headerName: "멀티 OS", field: "multiOs" },
       { headerName: "멀티 브라우저", field: "multiBrowser" },
       { headerName: "화면 배포방식", field: "deploySpec" },
-
       { headerName: "개발/운영 소스 동일", field: "sourceEquality" },
       { headerName: "지원스펙(통신 등)", field: "supportSkill" }
     ]
