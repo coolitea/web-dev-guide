@@ -171,8 +171,11 @@
 - [GitHub Desktop](https://desktop.github.com/)
 - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
 - [Flat UI Colors](https://flatuicolors.com/) - 플랫 UI 색상 팔레트
-- [Browser Market Share](http://gs.statcounter.com/browser-market-share/) - 브라우저별 시장 점유율
+- [한국 브라우저 시장 점유율](http://gs.statcounter.com/browser-market-share/all/south-korea)
+- [한국 OS 시장 점유율](http://gs.statcounter.com/os-market-share/all/south-korea#monthly-201801-201801-bar)
 - [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/) - 브라우저별 ECMAScript 호환성
+
+- [UI/UX 플랫폼 모음](https://goodsharp.tistory.com/519) (2017.01)
 
 ## 추후 연구 대상
 
