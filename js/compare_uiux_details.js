@@ -8,6 +8,13 @@ var columnDefs = [
     ]
   },
   {
+    headerName: "참고",
+    children: [
+      { headerName: "품질인증(GS인증) 등급", field: "" },
+      { headerName: "전자정부표준프레임워크 호환성", field: "" }
+    ]
+  },
+  {
     headerName: "반응형 웹 여부",
     children: [
       { headerName: "디자인 구분", field: "designType" },
@@ -27,7 +34,7 @@ var columnDefs = [
   {
     headerName: "웹표준 준수",
     children: [
-      { headerName: "시각적 속성 (CSS표준)", field: "" },
+      { headerName: "시각적 속성 (CSS 표준)", field: "" },
       { headerName: "웹페이지 동적 구성 (DOM표준)", field: "" },
       { headerName: "웹페이지 제어 (ECMA-262표준)", field: "" },
       { headerName: "소프트웨어 설치", field: "" }
@@ -36,29 +43,29 @@ var columnDefs = [
   {
     headerName: "비표준 기술 제거",
     children: [
-      { headerName: "액티브X", field: "" },
-      { headerName: "EXE", field: "" },
-      { headerName: "비표준 멀티미디어", field: "" },
-      { headerName: "모바일(HW, SW)", field: "" },
-      { headerName: "기타 소프트웨어 설치", field: "" }
+      { headerName: "액티브X 제거", field: "" },
+      { headerName: "EXE 제거", field: "" },
+      { headerName: "비표준 멀티미디어 제거", field: "" },
+      { headerName: "모바일(HW, SW)에서 비표준기술 제거", field: "" },
+      { headerName: "기타 소프트웨어 미설치", field: "" }
     ]
   },
   {
     headerName: "최신 기술 여부",
     children: [
       { headerName: "HTML5 지원", field: "html5Support" },
-      { headerName: "ECMAScript", field: "ecmaScriptSupport" },
-      { headerName: "기반 기술", field: "baseSkill" }
+      { headerName: "CSS3 지원", field: "css3Support" },
+      { headerName: "ECMAScript8 지원", field: "ecmaScript8Support" }
     ]
   },
-  {
-    headerName: "인터페이스",
-    children: [
-      { headerName: "Restful", field: "restful" },
-      { headerName: "SOAP, WSDL, XML", field: "soap" },
-      { headerName: "uddi", field: "uddi" }
-    ]
-  },
+  // {
+  //   headerName: "인터페이스",
+  //   children: [
+  //     { headerName: "Restful", field: "restful" },
+  //     { headerName: "SOAP, WSDL, XML", field: "soap" },
+  //     { headerName: "uddi", field: "uddi" }
+  //   ]
+  // },
   {
     headerName: "개발 환경",
     children: [
@@ -79,14 +86,14 @@ var columnDefs = [
       { headerName: "지원스펙(통신 등)", field: "supportSkill" }
     ]
   },
-  {
-    headerName: "성능",
-    children: [
-      { headerName: "메모리 사용", field: "memoryUsage" },
-      { headerName: "브라우저 기본메모리", field: "browserMemory" },
-      { headerName: "대용량 데이터", field: "bigData" }
-    ]
-  },
+  // {
+  //   headerName: "성능",
+  //   children: [
+  //     { headerName: "메모리 사용", field: "memoryUsage" },
+  //     { headerName: "브라우저 기본메모리", field: "browserMemory" },
+  //     { headerName: "대용량 데이터", field: "bigData" }
+  //   ]
+  // },
   {
     headerName: "편의성",
     children: [
@@ -110,7 +117,7 @@ var columnDefs = [
 var rowData = [
   {
     company: "인젠트",
-    solution: "아이젭",
+    solution: "아이젭2",
     designType: "반응형",
     devSpec: "HTML5",
     devEnvironment: "업체도구",
@@ -118,14 +125,14 @@ var rowData = [
   },
   {
     company: "소프트보울",
-    solution: "SBUx",
+    solution: "SBUx 2.5",
     designType: "반응형",
     devSpec: "HTML5",
     deploySpec: "HTML5"
   },
   {
     company: "인스웨이브",
-    solution: "웹스퀘어",
+    solution: "웹스퀘어5",
     designType: "반응형(일부)",
     devSpec: "xForm-HTML 혼용",
     deploySpec: "XML 및 자바스크립트"
