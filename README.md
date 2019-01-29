@@ -40,6 +40,7 @@
 - [라이트하우스](https://developers.google.com/web/tools/lighthouse/v3/scoring?hl=ko) (Lighthouse)- 웹 앱의 품질을 개선하는 오픈 소스 자동화 도구
 - [구글 페이지 스피드 인사이트](https://developers.google.com/speed/pagespeed/insights/?hl=ko) (Page Speed Insights) -
   웹 사이트 속도 측정 및 개선 방법 추천
+- [구글 모바일 친화성 테스트](https://search.google.com/test/mobile-friendly?hl=ko) - 방문자가 휴대기기에서 페이지를 얼마나 쉽게 사용할 수 있는지 테스트
 
 ## 버전 관리
 
@@ -50,10 +51,6 @@
 
 - [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/emliamioobfffbgcfdchabfibonehkme) - 웹 페이지 컴포넌트 사이즈 측정
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?catego...&hl=ko) - 웹 페이지의 색상 추출
-
-## 작성자
-
-- **박현정** - 최초 작성
 
 ## 관련 법규
 
@@ -127,6 +124,7 @@
 - [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
 - [CSS - BEM 방법론](https://medium.com/witinweb/css-%EB%B0%A9%EB%B2%95%EB%A1%A0-1-bem-block-element-modifier-1c03034e65a1) - 블록(Block), 요소(Element), 수식어(Modifier)
 - [Git 가이드북 한글](https://git-scm.com/book/ko/v2)
+- [Node.js](https://nodejs.org/ko/) - 확장성 있는 네트워크 애플리케이션(특히 서버 사이드) 개발에 사용되는 소프트웨어 플랫폼. 작성 언어로 자바스크립트를 활용하며 Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능을 가지고 있다.
 - [공개SW 포털](https://www.oss.kr/)
   - [공개SW 솔루션 가이드](https://www.oss.kr/solution_guide)
   - [공개SW 활용](https://www.oss.kr/oss_use) - 공개SW 목록
@@ -134,28 +132,43 @@
 
 ### 영어 학습 자료
 
+- 국제 표준
+  - [W3C](https://www.w3.org/standards/) (World Wide Web Consortium) - HTML, CSS 등 웹을 위한 표준을 개발하고 장려하는 조직
+    - [HTML](https://www.w3.org/standards/techs/html#w3c_all) : 웹페이지의 구성을 기술하는 언어
+    - [CSS](https://www.w3.org/standards/techs/css#w3c_all) : 웹페이지의 프리젠테이션을 기술하는 언어 (색상, 레이아웃, 폰트 등)
+  - [ECMA-262](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - ECMAScript (자바스크립트)
 - [Roadmap to becoming a Web Developer](https://github.com/kamranahmedse/developer-roadmap) - 웹 개발자가 되기 위한 로드맵
-  - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) - 프론트엔드 로드맵
-- [MDN](https://developer.mozilla.org/en-US/docs/Web/)
-- [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/) - 공식 사이트(현재 버전 v4.1.3) 컴포넌트
-- [w3schools](https://www.w3schools.com/)
-  - [w3schools HTML5](https://www.w3schools.com/html/)
-  - [w3schools CSS](https://www.w3schools.com/css/)
-  - [w3schools Java Script](https://www.w3schools.com/js/)
-- [Google Developers - Web](https://developers.google.com/web/)
-- [BEM 방법론](http://getbem.com/introduction/)(Blocks, Elements and Modifiers)(BEM Methodologies)
-  - [Get BEM](http://getbem.com/)
-  - [BEM](https://en.bem.info/)
-  - [BEM File Structure](https://en.bem.info/methodology/filestructure/)
-- [Git Book](https://git-scm.com/book/en/v2)
-- [World Wide Web Consortium](https://www.w3.org/)(W3C) - 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직
-- [Developing Web Apps with SAPUI5](https://open.sap.com/courses/ui51)
-- [미국정부 웹사이트 가이드라인 공식 홈페이지](https://designsystem.digital.gov/)
-  - [미국정부 웹사이트 가이드라인 깃허브](https://github.com/uswds/uswds)
-  - [미국정부 웹사이트 가이드라인 공식 발표 문서](https://18f.gsa.gov/2015/09/28/web-design-standards/)
-- [구글 디자인 리소스](https://design.google/resources/)
-  - [머티리얼 디자인](https://ko.wikipedia.org/wiki/%EB%A8%B8%ED%8B%B0%EB%A6%AC%EC%96%BC_%EB%94%94%EC%9E%90%EC%9D%B8) (Material Design) - [https://material.io/](https://material.io/)
-  - [Google Fonts](https://fonts.google.com/)
+  - [MDN](https://developer.mozilla.org/en-US/docs/Web/)
+  - [미국정부 웹사이트 가이드라인 공식 홈페이지](https://designsystem.digital.gov/)
+    - [미국정부 웹사이트 가이드라인 깃허브](https://github.com/uswds/uswds)
+    - [미국정부 웹사이트 가이드라인 공식 발표 문서](https://18f.gsa.gov/2015/09/28/web-design-standards/)
+    - [Git Book](https://git-scm.com/book/en/v2)
+- [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) - 프론트엔드 로드맵
+  - [w3schools](https://www.w3schools.com/)
+    - [w3schools HTML5](https://www.w3schools.com/html/)
+    - [w3schools CSS](https://www.w3schools.com/css/)
+    - [w3schools Java Script](https://www.w3schools.com/js/)
+  - [Google Developers - Web](https://developers.google.com/web/)
+  - 디자인
+    - [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/) - 공식 사이트(현재 버전 v4.1.3) 컴포넌트
+    - [구글 디자인 리소스](https://design.google/resources/)
+      - [머티리얼 디자인](https://ko.wikipedia.org/wiki/%EB%A8%B8%ED%8B%B0%EB%A6%AC%EC%96%BC_%EB%94%94%EC%9E%90%EC%9D%B8) (Material Design) - [https://material.io/](https://material.io/)
+      - [Google Fonts](https://fonts.google.com/)
+  - [BEM 방법론](http://getbem.com/introduction/)(Blocks, Elements and Modifiers)(BEM Methodologies)
+    - [Get BEM](http://getbem.com/)
+    - [BEM](https://en.bem.info/)
+    - [BEM File Structure](https://en.bem.info/methodology/filestructure/)
+  - [pug](https://pugjs.org/api/getting-started.html) - 템플릿 엔진 (This project was formerly known as "Jade".)
+  - [Babel](https://babeljs.io/) - next generation JavaScript 작성을 위한 컴파일러
+  - [Developing Web Apps with SAPUI5](https://open.sap.com/courses/ui51)
+- Backend 로드맵
+  - [Node.js](https://nodejs.org/en/) - 비동기 이벤트 주도 JavaScript 런타임으로써 Node는 확장성 있는 네트워크 애플리케이션을 만들 수 있도록 설계되었습니다.
+  - [Express](https://expressjs.com/) - Node.js 프레임워크
+  - Node.js 미들웨어
+    - [body-parser](https://www.npmjs.com/package/body-parser) - 바디 파싱
+    - [cookie-parser](https://www.npmjs.com/package/cookie-parser) - 쿠키 파싱
+    - [morgan](https://www.npmjs.com/package/morgan) - HTTP request 로그 남기기
+    - [Helmet](https://helmetjs.github.io/) - Express.js security with HTTP headers
 
 ### 웹 개발 도구 관련 참고 사이트 (영문)
 
@@ -171,15 +184,20 @@
 - [GitHub Desktop](https://desktop.github.com/)
 - [Imagemin](https://web.dev/fast/use-imagemin-to-compress-images) - 이미지 압축
 - [Flat UI Colors](https://flatuicolors.com/) - 플랫 UI 색상 팔레트
-- [한국 브라우저 시장 점유율](http://gs.statcounter.com/browser-market-share/all/south-korea)
-- [한국 OS 시장 점유율](http://gs.statcounter.com/os-market-share/all/south-korea#monthly-201801-201801-bar)
+- 시장 점유율
+  - [한국 브라우저 시장 점유율](http://gs.statcounter.com/browser-market-share/all/south-korea)
+  - [한국 OS 시장 점유율](http://gs.statcounter.com/os-market-share/all/south-korea#monthly-201801-201801-bar)
 - [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/) - 브라우저별 ECMAScript 호환성
-
 - [UI/UX 플랫폼 모음](https://goodsharp.tistory.com/519) (2017.01)
 
 ## 추후 연구 대상
 
 - [타입스크립트](https://www.typescriptlang.org/) (TypeScript) - 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다.
 - [국제화(Internationalization, I18n)와 지역화(Localization, L10n)](https://ko.wikipedia.org/wiki/국제화와_지역화)
+
   - [LocalePlanet](http://www.localeplanet.com/)
   - [JavaScript Localization](https://phraseapp.com/blog/posts/step-step-guide-javascript-localization/)
+
+## 작성자
+
+- **박현정** - 최초 작성
