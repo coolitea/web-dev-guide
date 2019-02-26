@@ -17,7 +17,7 @@
 - 행정안전부 정보화 표준·지침 자료실 https://www.mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000045
 - 한국인터넷진흥원 기술안내서 가이드 http://www.kisa.or.kr/public/laws/laws3.jsp
 - 국가기록원 지침 및 매뉴얼 http://www.archives.go.kr/next/data/guidelines.do
-- 국가기술표준원 - 소프트웨어 접근성 설계 지침
+- 국가기술표준원 - 소프트웨어 접근성 설계 지침 http://www.standard.go.kr
 
 ## 제공 서비스
 - (한국정보화진흥원) 표준프레임워크 포털 www.egovframe.go.kr/
@@ -26,7 +26,7 @@
 - (행정안전부) 국가정보자원관리원 www.nirs.go.kr/
 - (행정안전부) 공공 I-PIN www.gpin.go.kr/
 - (국가기술표준원) e나라표준인증 www.standard.go.kr/
-- (한국정보화진흥원) 클라우드스토어 씨앗 ceart.kr/
+- (한국정보화진흥원) 클라우드스토어 씨앗 https://www.ceart.kr/
 - (정보통신산업진흥원) 공개SW 포털 https://www.oss.kr/oss_intro
 - (문화체육관광부) 공공누리 www.kogl.or.kr/
 - (조달청) 나라장터 www.g2b.go.kr/
@@ -35,9 +35,9 @@
 # 오픈 소스 프로젝트
 - React https://reactjs.org/
 - Yarn https://yarnpkg.com/
-- BEM — Block Element Modifier getbem.com/
+- BEM — Block Element Modifier http://getbem.com/introduction/
 - Git https://git-scm.com/
 - 부트스트랩 https://getbootstrap.com/
-  - (한글) bootstrap4.kr/
+  - (한글) http://bootstrap4.kr
 - 비주얼 스튜디오 코드 https://code.visualstudio.com/
 
