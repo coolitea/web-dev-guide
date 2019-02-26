@@ -107,9 +107,17 @@
 
 - [한국형 웹 콘텐츠 접근성 지침 2.1](https://www.wah.or.kr:444/Participation/guide.asp)
 
+- [모바일 애플리케이션 콘텐츠 접근성 지침 2.0](https://www.wah.or.kr:444/board/boardView.asp?page=1&brd_sn=4&brd_idx=1013)
+
+- [모바일 웹 최적화를 위한 종속형 시트(CSS) 선택자 네이밍 규칙](https://rra.go.kr/ko/m/reference/kcsList_view.do?nb_seq=1333&cpage=18&nb_type=6&searchCon=&searchTxt=&sortOrder=)
+
 ### [한국정보화진흥원](https://www.nia.or.kr/)
 
 - [범정부EA포털](https://www.geap.go.kr/) (https://www.geap.go.kr/) 사이트에 우리 회사의 EA 정보가 등록되어 관리되고 있습니다. (회원 가입 필요)
+
+### 기타 행정규칙
+
+-[행정기관 도메인이름 및 IP주소체계 표준](http://www.law.go.kr/행정규칙/행정기관도메인이름및IP주소체계표준)
 
 ## 학습 자료
 
