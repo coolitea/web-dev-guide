@@ -4,13 +4,19 @@
 
 ### 서비스 접근 및 전달분야
 
+- [x] 웹디자인 : 반응형
 - [x] 크로스 브라우징
 - 외부 접근 장치
   - 웹브라우저 관련
-  - [x] (웹페이지 구조) HTML5.2
-  - [x] (웹페이지 시각적 속성) Sass https://sass-lang.com/
-  - [x] (웹페이지 시각적 속성) CSS3
-  - [x] (웹페이지 동적 제어) EcmaScript 6th
+  - [x] (웹페이지 구조) HTML5
+  - [ ] (웹페이지 시각적 속성)
+    - [x] styled-components https://www.styled-components.com/
+    - [ ] Sass
+    - [ ] CSS3
+  - [ ] (웹페이지 동적 제어)
+    - [x] React (v16.8.3) https://reactjs.org/
+    - [x] TypeScript (v3.3) https://www.typescriptlang.org/
+    - [ ] EcmaScript 6th
 - [ ] 서비스 요구사항
 - [ ] 서비스 전달 프로토콜
 
@@ -25,7 +31,7 @@
   - [ ] ebXML/BPEL 2.0/XPDL 2.0
 - 데이터 공유
   - [x] 데이터 형식
-    - [x] JSON
+    - [x] JSON (JavaScript Object Notation)
     - [ ] XML
 - [ ] 인터페이스
   - [ ] UDDI, WSDL
@@ -42,70 +48,57 @@
     - [ ] android
     - [ ] iOS
 - 데이터베이스 (DBMS)
-  - [x] RDBMS
-  - [x] NoSQL
+  - [x] RDBMS (Oracle 12c)
+  - [x] NoSQL (사용자 분석)
 - 시스템관리
 - 소프트웨어공학
-  - [x] 개발프레임워크 : 전자정부 표준프레임워크 3.7
+  - [x] 개발프레임워크 : 전자정부 표준프레임워크 3.7 http://www.egovframe.go.kr/
+  - [x] Create React App (v2.1.5) https://facebook.github.io/create-react-app/
+  - [x] 버전관리 : Git https://git-scm.com/
+  - [ ] 버전 저장소
+    - [x] Bitbucket https://bitbucket.org/
+  - [ ] 이슈 & 프로젝트 트래킹
+    - [ ] 자체 ITSM (ITMS)
+    - [ ] Jira https://ko.atlassian.com/software/jira
+    - [ ] Redmine https://www.redmine.org/
+  - [ ] 위키
+    - [ ] 컨플루언스 https://ko.atlassian.com/software/confluence
 
 ### 요소기술 분야
 
 - 데이터 표현
-  - 정적표현: HTML5.2
-  - 동적표현
-    - [x] JSP
+  - 정적표현
+    - [ ] HTML5.2
+  - [ ] 동적표현
+    - [x] JSX
+    - [ ] JSP https://www.oracle.com/technetwork/java/jsp-138432.html
     - [ ] Node.js
 - 프로그래밍
-  - [x] Java 1.8
+  - [x] Java (JDK 1.8) https://docs.oracle.com/javase/8/docs/api/
 - 데이터 교환
-  - 교환프로토콜
+  - [ ] 교환프로토콜
     - [x] REST
     - [ ] SOAP
-  - 문자셋
+  - [x] 문자셋
     - [x] UTF-8
     - [ ] EUC-KR
 
 ### 보안 분야
 
-# 상세
-
-- [x] (웹디자인) 반응형 웹
-
-- [x] (데이터 송수신 형식) JSON (JavaScript Object Notation)
-- (데이터베이스)
-  - [x] (RMBD) Oracle (12c)
-  - [ ] (NoSQL) - 사용자 분석
-- (서버 사이드 스크립트 언어)
-  - [x] JSP https://www.oracle.com/technetwork/java/jsp-138432.html
-  - [ ] Node.js https://nodejs.org/ko/
-- [x] Java (JDK 1.8) https://docs.oracle.com/javase/8/docs/api/
-- (프레임워크)
-  - [x] (풀스택) 전자정부프레임워크 (v3.7) http://www.egovframe.go.kr/
-  - [x] (UI) React (v16.8.3) https://reactjs.org/
-    - [ ] Create React App https://facebook.github.io/create-react-app/
-    - <code> yarn create react-app my-app-name </code>
-- [x] (웹페이지 인코딩) UTF-8
 - [x] (통신 프로토콜) HTTPS
 
 ## 미디어 처리
 
-- [ ] 회사 컬러 코드 변수 세트 (팔레트) 사용 여부
+- [x] 회사 컬러 코드 변수 세트 (팔레트) 사용
 - [x] 폰트어썸
 - [x] 구글 폰트
 - [ ] 데이터 그리드 (예: SBGrid)
+- [ ] 차트 https://d3js.org/
 
 ## 구현도구
 
-- [ ] (프론트엔드) Visual Studio Code
-- [x] (백엔드) Eclipse
-
-## 형상관리도구
-
-- [ ] 버전 관리
-  - [ ] Git
-  - [ ] SVN
-- [ ] 저장소
-  - [ ] Bitbucket
+- [x] (프론트엔드) Visual Studio Code
+- [x] (백엔드-Java) Eclipse
 
 ## 성능
 
@@ -120,7 +113,3 @@
 - Maven
 - Nexus Repository
 - Hudson
-
-# 추후 고려 대상
-
-- TypeScript https://www.typescriptlang.org/) - 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 마이크로소프트에서 개발, 유지하고 있으며 엄격한 문법을 지원한다.
