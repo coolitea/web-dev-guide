@@ -1,11 +1,3 @@
-## 학습 자료
-
-## 웹 개발자 가이드
-
-- (구글) [Google Developers - Web](https://developers.google.com/web/)
-- (구글) [웹 UX 기초](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/?hl=ko) - 구글 개발자 웹 기초 가이드
-- (MDN) [Web 개발 학습하기](https://developer.mozilla.org/ko/docs/Learn) - 좋은 학습 관련 사이트 모음 있음
-
 ## 오픈 소스 프로젝트
 
 - 리액트 : https://reactjs.org/

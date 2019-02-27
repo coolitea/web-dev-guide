@@ -1,15 +1,44 @@
-## 지원 대상 브라우저
+# 웹 브리우저
 
-웹표준을 지원하는 브라우저가 설치되어 있어야 합니다. 권장 브라우저는 [크롬](https://www.google.com/intl/ko_ALL/chrome/)이며, 지원 대상 브라우저는 아래와 같습니다.
+## 한국 웹 브라우저 이용률
 
-- [크롬](https://www.google.com/intl/ko_ALL/chrome/) (Chrome)
-- [파이어폭스](https://www.mozilla.org/ko/firefox/new/) (FireFox)
-- [오페라](https://www.opera.com/ko) (Opera)
-- [IE 11](https://support.microsoft.com/ko-kr/help/17621/internet-explorer-downloads) - Windows 7 사용자용
-- [사파리](https://www.apple.com/kr/safari/) (Safari)
+### 2019년 1월 기준 자료
 
-# 시장 점유율
+데이터의 출처는 statcounter.com 기준 (대한민국, 2018년 2월 ~ 2019년 1월 기준)
 
-- [한국 브라우저 시장 점유율](http://gs.statcounter.com/browser-market-share/all/south-korea)
-- [한국 OS 시장 점유율](http://gs.statcounter.com/os-market-share/all/south-korea#monthly-201801-201801-bar)
-- [ECMAScript compatibility table](http://kangax.github.io/compat-table/es6/) - 브라우저별 ECMAScript 호환성
+- 스마트폰
+  - Chrome : 42.68%
+  - Safari : 31.34%
+  - Samsung Internet : 24.28%
+  - 기타
+    - Puffin : 0.93%
+    - Android : 0.39%
+    - UC Browser : 0.14%
+    - Opera : 0.14
+- PC
+  - Chrome : 70.46%
+  - IE : 21.05%
+  - Edge : 2.99%
+  - Safari : 2.07%
+  - Firefox : 1.15%
+  - Whale Browser : 1.14%
+  - Opera 0.67%
+
+출처 : https://www.koreahtml5.kr/front/stats/browser/browserUseStats.do
+
+### 시장 점유율 자세히
+
+- 한국 브라우저 시장 점유율 http://gs.statcounter.com/browser-market-share/all/south-korea
+- 한국 OS 시장 점유율 http://gs.statcounter.com/os-market-share/all/south-korea#monthly-201801-201801-bar
+
+## 최신 웹 브라우저 사용 권장
+
+권장 브라우저는 [크롬](https://www.google.com/intl/ko_ALL/chrome/)입니다.
+
+구형 웹 브라우저 업그레이드 대국민 캠페인 2018 : https://www.webbup.kr/
+
+# 호환성
+
+- 사용 가능한지 확인 https://caniuse.com/
+- 브라우저별 ECMAScrip 호환성
+  - ECMAScript compatibility table http://kangax.github.io/compat-table/es6/

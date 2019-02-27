@@ -9,5 +9,6 @@
 - [ ] URL 구조
 - [ ] 파일 명명 규칙
 - [ ] asset image 이름별 폴더 내 사이즈별 이미지 사용 (small, medium, large size)
-- [ ] 국제화(Internationalization, I18n)
-- [ ] 지역화(Localization, L10n)
+- [ ] 국제화와 지역화
+  - [ ] 국제화(Internationalization, I18n)
+  - [ ] 지역화(Localization, L10n)

@@ -1,9 +1,3 @@
-## 추가 학습 자료
-
-- [Roadmap to becoming a Web Developer](https://github.com/kamranahmedse/developer-roadmap) - 웹 개발자가 되기 위한 로드맵
-  - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap) - 프론트엔드 로드맵
-  - [Back-end Roadmap](https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap)
-
 ## 미국정부 웹사이트 가이드라인
 
 - [미국정부 웹사이트 가이드라인 공식 홈페이지](https://designsystem.digital.gov/)
