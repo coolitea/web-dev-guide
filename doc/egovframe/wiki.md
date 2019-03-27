@@ -64,6 +64,11 @@
   - 자료실
     - 정보시스템 구축 발주자를 위한 표준프레임워크 적용가이드 3.7(2018.03) http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?menu=6&amp;submenu=4
     - 모바일 전자정부 서비스 지침 및 가이드라인 http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?nttId=763&bbsId=BBSMSTR_000000000003&menu=7
+    - 개발 표준 정의서와 아키텍처정의서 (2009-08-18) http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?nttId=196&bbsId=BBSMSTR_000000000003&menu=7
+- 표준프레임워크 오픈커뮤니티 https://open.egovframe.org/
+- K-ICT 클라우드혁신센터 https://www.cloud.or.kr/
+  - 소프트웨어개발플랫폼 https://www.cloud.or.kr/software/
+    - Paas-TA http://portal-web-user.syscafeportal.com/ : eGovFrame, Spring 등 프레임워크 및 AWS 등 IaaS 지원
 - eGovFrame 적용 기술
   - Spring
     - Spring Framework (5.1.5) https://spring.io/projects/spring-framework
