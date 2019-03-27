@@ -1,4 +1,7 @@
-# 전자정부 표준프레임워크 (eGovFrame) 섦명
+# 전자정부 표준프레임워크(eGovFrame) 포털 개발자 가이드
+
+- 참고
+  - [구버전] 전자정부 표준프레임워크 개발자가이드 PDF (2014-02-24) http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?menu=6&amp;submenu=4
 
 ## 전자정부 표준프레임워크 3.8 개발하기
 
@@ -28,17 +31,16 @@
 
 - 표준프레임워크 개발환경 3.8 가이드 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.8:dev3.8
 
-### 공통컴포넌트 시스템
-
-- 표준프레임워크 공통컴포넌트 3.8 가이드 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.8:init
-
-- 모바일 표준프레임워크 공통컴포넌트 가이드 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:mcom
-
 ### 운영 환경
 
 - 컨테이너 가상화(Docker)를 활용한 전자정부 표준프레임워크 기반 프로그램의 도커 이미지 제작 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:dev3.6:dep:build_tool:docker
 - 배치운영환경 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:bopr
 - 의사소통관리, 설정관리, 모니터링도구 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:oe
+
+### 공통컴포넌트 시스템
+
+- 표준프레임워크 공통컴포넌트 3.8 가이드 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.8:init
+- 모바일 표준프레임워크 공통컴포넌트 가이드 http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:mcom
 
 ### 모바일 디바이스 API
 
@@ -53,7 +55,15 @@
 ## eGovFrame 관련 자료
 
 - 포털 http://www.egovframe.go.kr/
-- 위키 http://www.egovframe.go.kr/wiki/doku.php
+  - 교육
+    - 표준프레임워크 개발자 교육 교재 및 실습 (V3.8.0) http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?nttId=1569&bbsId=BBSMSTR_000000000004&menu=4
+      - eGovFrame-3.8.0.exe [3,365,614,259 byte]
+    - 온라인 교육 http://www.egovframe.go.kr/EgovEduMovie.jsp?menu=4&submenu=3
+    - [참고]표준프레임워크 퍼스트북 http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?nttId=1449&bbsId=BBSMSTR_000000000004&menu=4
+  - 위키 http://www.egovframe.go.kr/wiki/doku.php
+  - 자료실
+    - 정보시스템 구축 발주자를 위한 표준프레임워크 적용가이드 3.7(2018.03) http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?menu=6&amp;submenu=4
+    - 모바일 전자정부 서비스 지침 및 가이드라인 http://www.egovframe.go.kr/cop/bbs/selectBoardArticle.do?nttId=763&bbsId=BBSMSTR_000000000003&menu=7
 - eGovFrame 적용 기술
   - Spring
     - Spring Framework (5.1.5) https://spring.io/projects/spring-framework
