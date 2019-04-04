@@ -65,6 +65,13 @@ https://devmjun.github.io/archive/iT_Tech_Blog
 - 제13회컨퍼런스 조대협 서버사이드개발 https://www.slideshare.net/Byungwook/13-16698473
 - [도서] 소프트웨어 개발과 테스트 조대협의 서버 사이드 http://book.naver.com/bookdb/book_detail.nhn?bid=8637311
 
+## 김민준 https://velopert.com/
+  
+- @Laftel
+- https://velopert.com/about
+- [길벗] 리액트를 다루는 기술 집필 (2018.08.02) https://book.naver.com/bookdb/book_detail.nhn?bid=13799583
+- 누구든지 하는 리액트: 초심자를 위한 리액트 핵심 강좌 https://velopert.com/3676
+
 ## 이현섭 https://hyunseob.github.io
 
 - @비바리퍼블리카 UI Developer (2018. 12 - 현재)
