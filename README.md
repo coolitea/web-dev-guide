@@ -30,10 +30,16 @@
   - chrome.md : 크롬 도구
   - ui-tools.md :
 
-# 데모
-
+# 데모 사이트
+- 전자정부서비스 보일러플레이트
+  - 라이브 데모 : https://coolitea.github.io/egov-react-boilerplate/
+  - 소스 코드 저장소 : https://github.com/coolitea/egov-react-boilerplate
+  - 적용 기술
+    - 리액트 v.16.8
+    - 부트스트랩 v.4.3  
 - 웹표준 가이드(제품 검토중) [https://coolitea.github.io/web-dev-guide/](https://coolitea.github.io/web-dev-guide/)
-- [전자투표 데모 사이트](https://coolitea.github.io/evote-clone-with-bootstrap/) - 부트스트랩 사용
+- [전자투표 데모 사이트](https://coolitea.github.io/evote-clone-with-bootstrap/) 
+  - 적용기술 : 부트스트랩 사용
 
 ## 웹사이트 개발 가이드라인 우수 사례
 
